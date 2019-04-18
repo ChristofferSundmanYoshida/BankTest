@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1" tests="6" failures="0" skipped="6">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            </property>
+        </properties>
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter Test1 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And press Add account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then a new account named Test1 should have been created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>

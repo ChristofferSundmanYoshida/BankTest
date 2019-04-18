@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/selenium-cucumber-js/index.js && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "jsonflex": "^1.0.10"
+    "jsonflex": "^1.0.10",
+    "selenium-cucumber-js": "^1.6.2"
   }
 }

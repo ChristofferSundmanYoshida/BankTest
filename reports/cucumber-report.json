@@ -1,0 +1,88 @@
+[
+  {
+    "elements": [
+      {
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adding a new account named Test1",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "my-accounts page loaded",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the add account button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I get prompted to enter a name for the account",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter Test1 as name",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press Add account",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a new account named Test1 should have been created",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4281269199
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a customer I want to be able to create, change and delete accounts.",
+    "tags": [],
+    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature"
+  }
+]
