@@ -1,0 +1,35 @@
+{
+  "data": {
+    "username": "gsimnett0",
+    "myFile": "users/gsimnett0-TbObbUKQ",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 300,
+        "history": [
+          {
+            "label": "skatt är stöld",
+            "amount": -150,
+            "time": "4/18/2019, 11:05 AM"
+          },
+          {
+            "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "2860-802090",
+        "⚙": "Account"
+      },
+      {
+        "name": "pension",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5680-858757",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
