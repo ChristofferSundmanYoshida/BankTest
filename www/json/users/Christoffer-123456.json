@@ -1,0 +1,50 @@
+{
+  "data": {
+    "username": "Christoffer",
+    "myFile": "users/Christoffer-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 48567,
+        "history": [
+          {
+            "label": "Passa dig för skattmasen!",
+            "amount": -50000,
+            "time": "2019-04-15 14:42",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "muta",
+            "amount": 98567,
+            "time": "2019-04-15 14:40",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "5259-018692",
+        "⚙": "Account"
+      },
+      {
+        "name": "Mutor",
+        "balance": 50000,
+        "history": [
+          {
+            "label": "Passa dig för skattmasen!",
+            "amount": 50000,
+            "time": "2019-04-15 14:42",
+            "accountName": "Mutor"
+          }
+        ],
+        "accountNumber": "7433-575503",
+        "⚙": "Account"
+      },
+      {
+        "name": "ÖyzenN'guyen",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4007-406039",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
