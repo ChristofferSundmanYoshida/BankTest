@@ -1,0 +1,147 @@
+{
+  "data": {
+    "username": "tbiasini9",
+    "myFile": "users/tbiasini9-hsshhCwQ",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 32500,
+        "history": [
+          {
+            "label": "överföring",
+            "amount": -500,
+            "time": "2019-04-18 13:42",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -2000,
+            "time": "2019-04-18 13:10",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": 10000,
+            "time": "2019-04-18 13:09",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": 2000,
+            "time": "2019-04-18 13:09",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "sparande april",
+            "amount": -2000,
+            "time": "2019-04-18 12:02",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön",
+            "amount": 25000,
+            "time": "2019-04-18 11:52",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "5951-217327",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": 2000,
+        "history": [
+          {
+            "label": "",
+            "amount": 2000,
+            "time": "2019-04-18 13:10",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": -10000,
+            "time": "2019-04-18 13:09",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": -2000,
+            "time": "2019-04-18 13:09",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "sparande april",
+            "amount": 2000,
+            "time": "2019-04-18 12:02",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "Startkapital",
+            "amount": 10000,
+            "time": "2019-04-18 11:53",
+            "accountName": "Sparkonto"
+          }
+        ],
+        "accountNumber": "2282-831661",
+        "⚙": "Account"
+      },
+      {
+        "name": "Extrakonto",
+        "balance": 500,
+        "history": [
+          {
+            "label": "överföring",
+            "amount": 500,
+            "time": "2019-04-18 13:42",
+            "accountName": "Extrakonto"
+          }
+        ],
+        "accountNumber": "1153-102808",
+        "⚙": "Account"
+      },
+      {
+        "name": "ÖyzenN’guyen",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6983-206962",
+        "⚙": "Account"
+      },
+      {
+        "name": "1123455566677788899995454545454545454545öB",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8256-570546",
+        "⚙": "Account"
+      },
+      {
+        "name": "1123455566677788899995454545454545454545öB12456784958493",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5352-147258",
+        "⚙": "Account"
+      },
+      {
+        "name": "",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7734-907395",
+        "⚙": "Account"
+      },
+      {
+        "name": "Test2",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5971-448729",
+        "⚙": "Account"
+      },
+      {
+        "name": "Test2",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4399-668472",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
