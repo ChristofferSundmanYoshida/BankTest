@@ -5,15 +5,68 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 300,
+        "balance": 20279,
         "history": [
+          {
+            "label": "lön",
+            "amount": 19999,
+            "time": "4/18/2019, 1:04 PM"
+          },
+          {
+            "label": "Kaffe",
+            "amount": -20,
+            "time": "4/18/2019, 1:04 PM"
+          },
           {
             "label": "skatt är stöld",
             "amount": -150,
-            "time": "4/18/2019, 11:05 AM"
+            "time": "4/18/2019, 11:05 AM",
+            "accountName": "Lönekonto"
           },
           {
             "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "swish",
+            "amount": 450,
+            "time": "4/18/2019, 10:54 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "swish för kinamat med folk från skolan.swish för kinamat med folk från skolan.swish för kinamat med folk från skolan.swish för kinamat med folk från skolan.swish för kinamat med folk från skolan.",
             "amount": 450,
             "time": "4/18/2019, 10:54 AM",
             "accountName": "Lönekonto"
@@ -27,6 +80,13 @@
         "balance": 0,
         "history": [],
         "accountNumber": "5680-858757",
+        "⚙": "Account"
+      },
+      {
+        "name": "semester",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7694-035658",
         "⚙": "Account"
       }
     ],

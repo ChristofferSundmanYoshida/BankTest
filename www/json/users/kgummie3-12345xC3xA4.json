@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "kgummie3",
+    "myFile": "users/kgummie3-12345xC3xA4",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8578-600250",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

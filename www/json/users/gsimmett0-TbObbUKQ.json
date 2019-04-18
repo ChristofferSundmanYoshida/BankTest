@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "gsimmett0",
+    "myFile": "users/gsimmett0-TbObbUKQ",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "3751-093643",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "mbeckhurst4",
+    "myFile": "users/mbeckhurst4-12345xC3xB6",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "4480-663961",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
