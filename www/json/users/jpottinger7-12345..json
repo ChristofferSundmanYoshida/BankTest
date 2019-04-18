@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "jpottinger7",
+    "myFile": "users/jpottinger7-12345.",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "6792-513829",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

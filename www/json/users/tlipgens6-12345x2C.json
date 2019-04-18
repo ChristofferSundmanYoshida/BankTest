@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "tlipgens6",
+    "myFile": "users/tlipgens6-12345x2C",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5250-376940",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

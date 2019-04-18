@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "dmcinnery5",
+    "myFile": "users/dmcinnery5-12345-",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8849-816171",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
