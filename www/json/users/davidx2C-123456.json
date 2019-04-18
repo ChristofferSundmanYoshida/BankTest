@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "david,",
+    "myFile": "users/davidx2C-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "2766-149122",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
