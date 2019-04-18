@@ -30,4 +30,56 @@
             </skipped>
         </testcase>
     </testsuite>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account." tests="6" failures="0" skipped="6">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            </property>
+        </properties>
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click the change account name button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I get prompted to enter a new name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter Test2 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And press accept changes" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the account should have changed name to Test2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;deleting-an-existing-account" tests="4" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            </property>
+        </properties>
+        <testcase name="Given my accounts-page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;deleting-an-existing-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click the button to remove account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;deleting-an-existing-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be asked to confirm" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;deleting-an-existing-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And after confirming the prompt the accound should be deleted" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;deleting-an-existing-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
 </testsuites>
