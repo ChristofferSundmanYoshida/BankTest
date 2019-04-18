@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "testare",
+    "myFile": "users/testare-xC3xB6xC3xB6xC3xB6xC3xB61111",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "907-395953",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
