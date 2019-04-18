@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "jschimek2",
+    "myFile": "users/jschimek2-12345xC3xA5",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "7805-845150",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
