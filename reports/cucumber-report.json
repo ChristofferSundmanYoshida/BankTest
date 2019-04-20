@@ -33,55 +33,43 @@
             "keyword": "And ",
             "name": "I get prompted to enter a name for the account",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:8"
-            }
+            "line": 6
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I enter Test1 as name",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 7,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:13"
-            }
+            "line": 7
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "press Add account",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:17"
-            }
+            "line": 8
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "name": "a new account named Test1 should have been created",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:21"
-            }
+            "line": 9
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4545215100
+              "duration": 3923853800
             },
             "hidden": true,
             "match": {
@@ -130,12 +118,9 @@
             "keyword": "And ",
             "name": "I enter Test2 as name",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:13"
-            }
+            "line": 15
           },
           {
             "arguments": [],
@@ -160,7 +145,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2926911600
+              "duration": 2964144700
             },
             "hidden": true,
             "match": {
@@ -218,7 +203,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3008842301
+              "duration": 3198061600
             },
             "hidden": true,
             "match": {
