@@ -26,6 +26,4 @@ And I get prompted to confirm my action
 And I confirm the action
 Then the account should have been removed
 
-Scenario: test2
-Given test2
-Then test2
+
