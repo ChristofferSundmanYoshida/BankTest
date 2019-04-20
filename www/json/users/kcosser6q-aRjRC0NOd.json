@@ -1,0 +1,172 @@
+{
+  "data": {
+    "username": "kcosser6q",
+    "myFile": "users/kcosser6q-aRjRC0NOd",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 13370,
+        "history": [
+          {
+            "label": "betalning",
+            "amount": -453,
+            "time": "2019-04-18 15:59"
+          },
+          {
+            "label": "betalning",
+            "amount": -456,
+            "time": "2019-04-18 15:58"
+          },
+          {
+            "label": "Insättning",
+            "amount": -56,
+            "time": "2019-04-18 15:58"
+          },
+          {
+            "label": "insättning",
+            "amount": -2345,
+            "time": "2019-04-18 15:57"
+          },
+          {
+            "label": "betalning",
+            "amount": -567,
+            "time": "2019-04-18 15:57"
+          },
+          {
+            "label": "Medlemsavgift",
+            "amount": -123,
+            "time": "2019-04-18 15:57"
+          },
+          {
+            "label": "swish",
+            "amount": -458,
+            "time": "2019-04-18 15:57"
+          },
+          {
+            "label": "swish",
+            "amount": -45,
+            "time": "2019-04-18 15:57"
+          },
+          {
+            "label": "swish",
+            "amount": -12,
+            "time": "2019-04-18 15:56"
+          },
+          {
+            "label": "swish",
+            "amount": -123,
+            "time": "2019-04-18 15:52"
+          },
+          {
+            "label": "Insättning",
+            "amount": 48753,
+            "time": "2019-04-18 15:33",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Insättning",
+            "amount": 28000,
+            "time": "2019-04-18 15:32",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "9476-281865",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": 87266,
+        "history": [
+          {
+            "label": "sparande",
+            "amount": -234,
+            "time": "2019-04-18 16:10"
+          },
+          {
+            "label": "swish",
+            "amount": -123,
+            "time": "2019-04-18 16:09"
+          },
+          {
+            "label": "Insättning",
+            "amount": 87623,
+            "time": "2019-04-18 15:32",
+            "accountName": "Sparkonto"
+          }
+        ],
+        "accountNumber": "6073-338905",
+        "⚙": "Account"
+      },
+      {
+        "name": "Delat konto",
+        "balance": 52916.7,
+        "history": [
+          {
+            "label": "öl swish",
+            "amount": -120,
+            "time": "2019-04-18 15:49"
+          },
+          {
+            "label": "taxi swish",
+            "amount": -340,
+            "time": "2019-04-18 15:49"
+          },
+          {
+            "label": "4567.4",
+            "amount": -76.3,
+            "time": "2019-04-18 15:48"
+          },
+          {
+            "label": "SEB fondköp",
+            "amount": -2500,
+            "time": "2019-04-18 15:48"
+          },
+          {
+            "label": "Böcker",
+            "amount": -123,
+            "time": "2019-04-18 15:47"
+          },
+          {
+            "label": "P",
+            "amount": -85,
+            "time": "2019-04-18 15:46"
+          },
+          {
+            "label": "swish",
+            "amount": -547,
+            "time": "2019-04-18 15:46"
+          },
+          {
+            "label": "swish",
+            "amount": -52,
+            "time": "2019-04-18 15:46"
+          },
+          {
+            "label": "swish",
+            "amount": -875,
+            "time": "2019-04-18 15:46"
+          },
+          {
+            "label": "mat",
+            "amount": -253,
+            "time": "2019-04-18 15:45"
+          },
+          {
+            "label": "Medlemsavgift",
+            "amount": -857,
+            "time": "2019-04-18 15:45"
+          },
+          {
+            "label": "",
+            "amount": 58745,
+            "time": "2019-04-10 15:33",
+            "accountName": "Delat konto"
+          }
+        ],
+        "accountNumber": "4495-511074",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
