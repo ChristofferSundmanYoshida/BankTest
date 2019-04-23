@@ -5,8 +5,163 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 32500,
+        "balance": 29900,
         "history": [
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 4:03 PM"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 4:02 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 4:00 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:48 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:47 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:45 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:43 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:32 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:28 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:18 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:14 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:12 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:11 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:05 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:04 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:03 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:02 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 3:00 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 2:59 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 2:55 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 2:54 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 2:52 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 2:49 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 2:33 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 2:21 PM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "4/23/2019, 1:19 PM",
+            "accountName": "Lönekonto"
+          },
           {
             "label": "överföring",
             "amount": -500,
@@ -49,8 +204,163 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 2000,
+        "balance": 4600,
         "history": [
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 4:03 PM"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 4:02 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 4:00 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:48 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:47 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:45 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:43 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:32 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:28 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:18 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:14 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:12 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:11 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:05 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:04 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:03 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:02 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 3:00 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 2:59 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 2:55 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 2:54 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 2:52 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 2:49 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 2:33 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 2:21 PM",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "4/23/2019, 1:19 PM",
+            "accountName": "Sparkonto"
+          },
           {
             "label": "",
             "amount": 2000,

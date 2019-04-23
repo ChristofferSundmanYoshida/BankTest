@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
+<<<<<<< HEAD
     <testsuite name="usc_2;pewpew" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
@@ -17,10 +18,48 @@
         </testcase>
     </testsuite>
     <testsuite name="usc_2;pewpew" tests="4" failures="0" skipped="0">
+=======
+<<<<<<< HEAD
+    <testsuite name="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" tests="6" failures="1" skipped="0">
+=======
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="0" skipped="0">
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
+        <properties>
+            <property name="URI" value="C:/Users/Tomas/Desktop/Projects/BankTest/features/transaktioner_internt.feature">
+            </property>
+        </properties>
+<<<<<<< HEAD
+        <testcase name="Given transfermyaccount page loaded" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="10.525397483">
+        </testcase>
+        <testcase name="When I choose my 1st account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.002483769">
+        </testcase>
+        <testcase name="And I enter amount 100 as Summa (SEK)" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.031993183">
+        </testcase>
+        <testcase name="And I choose my 2nd account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.003956623">
+        </testcase>
+        <testcase name="And I click Utför" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.999901013">
+        </testcase>
+        <testcase name="Then 100 SEK should be moved from my 1st account to my 2nd account" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.174845774">
+            <failure message="AssertionError: fel">AssertionError: fel
+    at createWorld.&lt;anonymous&gt; (C:\Users\Tomas\Desktop\Projects\BankTest\step-definitions\transaktioner_internt.js:90:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+=======
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="5.0050329">
+        </testcase>
+        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="1.286690899">
+        </testcase>
+        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.9864304">
+        </testcase>
+        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.845146099">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" tests="4" failures="0" skipped="0">
+>>>>>>> 95408bbaab09face2f405dc46451c12166aa3a25
         <properties>
             <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_2.feature">
             </property>
         </properties>
+<<<<<<< HEAD
         <testcase name="Given my-accounts page loaded" classname="usc_2;pewpew" time="3.2641709">
         </testcase>
         <testcase name="And i have enterd my account" classname="usc_2;pewpew" time="0.069553601">
@@ -28,6 +67,28 @@
         <testcase name="When And i Click Visa mer" classname="usc_2;pewpew" time="0.1229502">
         </testcase>
         <testcase name="Then i should see more of my transaction history for that account" classname="usc_2;pewpew" time="0.0086999">
+=======
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="4.490127499">
+        </testcase>
+        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.2903759">
+        </testcase>
+        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.9760481">
+        </testcase>
+        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.835817601">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            </property>
+        </properties>
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="4.386863099">
+        </testcase>
+        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.863651699">
+        </testcase>
+        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.436771">
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
+>>>>>>> 95408bbaab09face2f405dc46451c12166aa3a25
         </testcase>
     </testsuite>
 </testsuites>
