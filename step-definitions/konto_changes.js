@@ -22,16 +22,11 @@ module.exports = function() {
 
             await sleep(2000) 
 
-
-
-
-
-
             await helpers.loadPage('http://localhost:3000/#my-account')
 
       });
 
-      /*
+      
       this.When(/^I click the add account button$/, async function () {
             // Write code here that turns the phrase above into concrete actions
             let clicked = await driver.findElement(by.css('btn.btn-primary').click)
@@ -39,7 +34,7 @@ module.exports = function() {
             assert(clicked === true, 'fel')
           
       });
-      */        
+            
 
       /*
       this.When(/^I get prompted to enter a name for the account$/, function () {

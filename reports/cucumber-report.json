@@ -13,7 +13,7 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 7037558601
+              "duration": 13251627099
             },
             "line": 4,
             "match": {
@@ -70,7 +70,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 250616001
+              "duration": 377077200
             },
             "hidden": true,
             "match": {
@@ -93,7 +93,7 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 6399003800
+              "duration": 6589174199
             },
             "line": 12,
             "match": {
@@ -177,7 +177,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 294555400
+              "duration": 294160301
             },
             "hidden": true,
             "match": {
@@ -200,7 +200,7 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 6210325800
+              "duration": 6353405700
             },
             "line": 23,
             "match": {
@@ -248,7 +248,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 156274601
+              "duration": 204100100
             },
             "hidden": true,
             "match": {

@@ -5,7 +5,7 @@
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" time="7.037558601">
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" time="13.251627099">
         </testcase>
         <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
             <skipped message="">
@@ -33,7 +33,7 @@
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." time="6.3990038">
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." time="6.589174199">
         </testcase>
         <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
             <skipped message="">
@@ -73,7 +73,7 @@
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." time="6.2103258">
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." time="6.3534057">
         </testcase>
         <testcase name="When I click the remove account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
             <skipped message="">
