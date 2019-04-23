@@ -1,95 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" tests="6" failures="0" skipped="5">
+    <testsuite name="usc_2;pewpew" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" time="7.037558601">
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_2;pewpew" time="3.9489173">
         </testcase>
-        <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I have Entered the correct information" classname="usc_2;pewpew" time="0.0001798">
         </testcase>
-        <testcase name="And I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="When i click the send button" classname="usc_2;pewpew" time="0.000094699">
         </testcase>
-        <testcase name="And I enter TestKonto1 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="And i Click the confirmation promt" classname="usc_2;pewpew" time="0.0000601">
         </testcase>
-        <testcase name="And press Add account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then a new account named TestKonto1 should have been created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then i should have the sum taken from my account" classname="usc_2;pewpew" time="0.0001001">
         </testcase>
     </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." tests="9" failures="0" skipped="8">
+    <testsuite name="usc_2;pewpew" tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_2.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." time="6.3990038">
+        <testcase name="Given my-accounts page loaded" classname="usc_2;pewpew" time="3.2641709">
         </testcase>
-        <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
+        <testcase name="And i have enterd my account" classname="usc_2;pewpew" time="0.069553601">
         </testcase>
-        <testcase name="And I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
+        <testcase name="When And i Click Visa mer" classname="usc_2;pewpew" time="0.1229502">
         </testcase>
-        <testcase name="And I enter TestKonto2 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I press Add account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I press the configure account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I rename it to TestKonto1" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then a new account named TestKonto2 should have been created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And renamed TestKonto1" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." tests="5" failures="0" skipped="4">
-        <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
-            </property>
-        </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." time="6.2103258">
-        </testcase>
-        <testcase name="When I click the remove account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I get prompted to confirm my action" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I confirm the action" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the account should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then i should see more of my transaction history for that account" classname="usc_2;pewpew" time="0.0086999">
         </testcase>
     </testsuite>
 </testsuites>

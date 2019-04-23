@@ -1,258 +1,89 @@
 [
   {
+    "description": "   As a customer i want to be able to send/pay other people ",
     "elements": [
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1",
+        "id": "usc_2;pewpew",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Adding a new account named TestKonto1",
+        "line": 6,
+        "name": "pewpew",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "my-accounts page loaded",
+            "name": "Överföringar andra konton has loaded",
             "result": {
               "status": "passed",
-              "duration": 7037558601
+              "duration": 3948917300
             },
-            "line": 4,
+            "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_1.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have Entered the correct information",
+            "result": {
+              "status": "passed",
+              "duration": 179800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_1.js:27"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the add account button",
+            "name": "i click the send button",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 94699
             },
-            "line": 5
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_1.js:30"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I get prompted to enter a name for the account",
+            "name": "i Click the confirmation promt",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 60100
             },
-            "line": 6
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter TestKonto1 as name",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press Add account",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_1.js:33"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "a new account named TestKonto1 should have been created",
+            "name": "i should have the sum taken from my account",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 100100
             },
-            "line": 9
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_1.js:36"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "passed",
-              "duration": 250616001
+              "status": "failed",
+              "duration": 204139299,
+              "error_message": "WebDriverError: invalid session id\n  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.getCurrentUrl()\n    at thenableWebDriverProxy.schedule (C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.getCurrentUrl (C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\node_modules\\selenium-webdriver\\lib\\webdriver.js:993:17)\n    at createWorld.<anonymous> (C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_1.js:20:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "Renaming an existing account and confirming the same name works on multiple accounts.",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "my-accounts page loaded",
-            "result": {
-              "status": "passed",
-              "duration": 6399003800
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I click the add account button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I get prompted to enter a name for the account",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter TestKonto2 as name",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press Add account",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press the configure account button on Testkonto2",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I rename it to TestKonto1",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "a new account named TestKonto2 should have been created",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "renamed TestKonto1",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 294555400
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.",
-        "keyword": "Scenario",
-        "line": 22,
-        "name": "Removing an existing account.",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "my-accounts page loaded",
-            "result": {
-              "status": "passed",
-              "duration": 6210325800
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I click the remove account button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 24
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I get prompted to confirm my action",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 25
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I confirm the action",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 26
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the account should have been removed",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 27
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 156274601
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -260,11 +91,96 @@
         "type": "scenario"
       }
     ],
-    "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.",
+    "id": "usc_2",
     "keyword": "Feature",
     "line": 1,
-    "name": "As a customer I want to be able to create, change and delete accounts.",
+    "name": "usc_2",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature"
+    "uri": "C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature"
+  },
+  {
+    "description": "   as a customer i want to be able to view more information/transactions by clicking more.",
+    "elements": [
+      {
+        "id": "usc_2;pewpew",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "pewpew",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "my-accounts page loaded",
+            "result": {
+              "status": "passed",
+              "duration": 3264170900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_2.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i have enterd my account",
+            "result": {
+              "status": "passed",
+              "duration": 69553601
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_2.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "And i Click Visa mer",
+            "result": {
+              "status": "passed",
+              "duration": 122950200
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_2.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should see more of my transaction history for that account",
+            "result": {
+              "status": "passed",
+              "duration": 8699900
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\step-definitions\\case_2.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 138920399
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\danol\\OneDrive\\Skrivbord\\mvt18\\testdesign\\Sprint1\\banken\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "usc_2",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "usc_2",
+    "tags": [],
+    "uri": "C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_2.feature"
   }
 ]
