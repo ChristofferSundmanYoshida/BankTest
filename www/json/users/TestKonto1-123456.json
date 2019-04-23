@@ -2,7 +2,53 @@
   "data": {
     "username": "TestKonto1",
     "myFile": "users/TestKonto1-123456",
-    "accounts": [],
+    "accounts": [
+      {
+        "name": "test2",
+        "balance": 499999995900,
+        "history": [
+          {
+            "label": "lite större muta",
+            "amount": -3000,
+            "time": "2019-04-23 15:43"
+          },
+          {
+            "label": "liten muta",
+            "amount": -500,
+            "time": "2019-04-23 15:39",
+            "accountName": "test2"
+          },
+          {
+            "label": "veckopeng",
+            "amount": -600,
+            "time": "2019-04-23 15:38",
+            "accountName": "test2"
+          },
+          {
+            "label": "muta",
+            "amount": 500000000000,
+            "time": "2019-04-23 15:38",
+            "accountName": "test2"
+          }
+        ],
+        "accountNumber": "5864-073495",
+        "⚙": "Account"
+      },
+      {
+        "name": "test3",
+        "balance": 600,
+        "history": [
+          {
+            "label": "veckopeng",
+            "amount": 600,
+            "time": "2019-04-23 15:38",
+            "accountName": "test3"
+          }
+        ],
+        "accountNumber": "1398-474245",
+        "⚙": "Account"
+      }
+    ],
     "⚙": "User"
   }
 }
