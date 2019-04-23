@@ -2,10 +2,17 @@
   {
     "elements": [
       {
+<<<<<<< HEAD
         "id": "as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account",
         "keyword": "Scenario",
         "line": 3,
         "name": "Transfer 100 SEK from 1st account to 2nd account",
+=======
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Creating an account",
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
         "steps": [
           {
             "arguments": [],
@@ -13,67 +20,211 @@
             "name": "transfermyaccount page loaded",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 10525397483
             },
             "line": 4,
             "match": {
               "location": "C:\\Users\\Tomas\\Desktop\\Projects\\BankTest\\step-definitions\\transaktioner_internt.js:17"
+=======
+              "duration": 5005032900
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
             "name": "I choose my 1st account as Konto",
             "result": {
               "status": "passed",
               "duration": 1002483769
+=======
+            "name": "I click the add account button I get prompted to enter a name for the account",
+            "result": {
+              "status": "passed",
+              "duration": 1286690899
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter TestKonto1 as name and click the add button",
+            "result": {
+              "status": "passed",
+              "duration": 986430400
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account TestKonto1 is created",
+            "result": {
+              "status": "passed",
+              "duration": 845146099
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 369393100
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
             },
             "line": 5,
             "match": {
               "location": "C:\\Users\\Tomas\\Desktop\\Projects\\BankTest\\step-definitions\\transaktioner_internt.js:50"
             }
+<<<<<<< HEAD
           },
+=======
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Renaming an account",
+        "steps": [
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I enter amount 100 as Summa (SEK)",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1031993183
             },
             "line": 6,
             "match": {
               "location": "C:\\Users\\Tomas\\Desktop\\Projects\\BankTest\\step-definitions\\transaktioner_internt.js:56"
+=======
+              "duration": 4490127499
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
             "keyword": "And ",
             "name": "I choose my 2nd account as Konto",
             "result": {
               "status": "passed",
               "duration": 1003956623
+=======
+            "keyword": "When ",
+            "name": "I click the configure account I should get prompted to change the name",
+            "result": {
+              "status": "passed",
+              "duration": 1290375900
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when I enter TestKonto2 as name and I click the save changes button",
+            "result": {
+              "status": "passed",
+              "duration": 976048100
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "TestKonto1 is renamed TestKonto2",
+            "result": {
+              "status": "passed",
+              "duration": 835817601
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:110"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 403748600
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
             },
             "line": 7,
             "match": {
               "location": "C:\\Users\\Tomas\\Desktop\\Projects\\BankTest\\step-definitions\\transaktioner_internt.js:64"
             }
+<<<<<<< HEAD
           },
+=======
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Removing an existing account",
+        "steps": [
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I click Utför",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 999901013
             },
             "line": 8,
             "match": {
               "location": "C:\\Users\\Tomas\\Desktop\\Projects\\BankTest\\step-definitions\\transaktioner_internt.js:70"
+=======
+              "duration": 4386863099
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
             "keyword": "Then ",
             "name": "100 SEK should be moved from my 1st account to my 2nd account",
             "result": {
@@ -84,6 +235,30 @@
             "line": 9,
             "match": {
               "location": "C:\\Users\\Tomas\\Desktop\\Projects\\BankTest\\step-definitions\\transaktioner_internt.js:75"
+=======
+            "keyword": "When ",
+            "name": "I click the remove account button on Testkonto2",
+            "result": {
+              "status": "passed",
+              "duration": 863651699
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:149"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account TestKonto2 should have been removed",
+            "result": {
+              "status": "passed",
+              "duration": 436771000
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:162"
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
             }
           },
           {
@@ -91,7 +266,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1812770080
+=======
+              "duration": 349982901
+>>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
             },
             "hidden": true,
             "embeddings": [
