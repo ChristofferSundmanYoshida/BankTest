@@ -1,95 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" tests="6" failures="0" skipped="5">
+    <testsuite name="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" tests="6" failures="1" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            <property name="URI" value="C:/Users/Tomas/Desktop/Projects/BankTest/features/transaktioner_internt.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" time="13.251627099">
+        <testcase name="Given transfermyaccount page loaded" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="10.525397483">
         </testcase>
-        <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I choose my 1st account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.002483769">
         </testcase>
-        <testcase name="And I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I enter amount 100 as Summa (SEK)" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.031993183">
         </testcase>
-        <testcase name="And I enter TestKonto1 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I choose my 2nd account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.003956623">
         </testcase>
-        <testcase name="And press Add account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click Utför" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.999901013">
         </testcase>
-        <testcase name="Then a new account named TestKonto1 should have been created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." tests="9" failures="0" skipped="8">
-        <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
-            </property>
-        </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." time="6.589174199">
-        </testcase>
-        <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I enter TestKonto2 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I press Add account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I press the configure account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I rename it to TestKonto1" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then a new account named TestKonto2 should have been created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And renamed TestKonto1" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." tests="5" failures="0" skipped="4">
-        <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
-            </property>
-        </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." time="6.3534057">
-        </testcase>
-        <testcase name="When I click the remove account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I get prompted to confirm my action" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I confirm the action" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the account should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then 100 SEK should be moved from my 1st account to my 2nd account" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.174845774">
+            <failure message="AssertionError: fel">AssertionError: fel
+    at createWorld.&lt;anonymous&gt; (C:\Users\Tomas\Desktop\Projects\BankTest\step-definitions\transaktioner_internt.js:90:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
         </testcase>
     </testsuite>
 </testsuites>
