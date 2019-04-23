@@ -1,95 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" tests="6" failures="0" skipped="5">
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1" time="13.251627099">
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="5.0050329">
         </testcase>
-        <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="1.286690899">
         </testcase>
-        <testcase name="And I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.9864304">
         </testcase>
-        <testcase name="And I enter TestKonto1 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And press Add account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then a new account named TestKonto1 should have been created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.845146099">
         </testcase>
     </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." tests="9" failures="0" skipped="8">
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" tests="4" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts." time="6.589174199">
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="4.490127499">
         </testcase>
-        <testcase name="When I click the add account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.2903759">
         </testcase>
-        <testcase name="And I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
+        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.9760481">
         </testcase>
-        <testcase name="And I enter TestKonto2 as name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I press Add account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I press the configure account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I rename it to TestKonto1" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then a new account named TestKonto2 should have been created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And renamed TestKonto1" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.835817601">
         </testcase>
     </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." tests="5" failures="0" skipped="4">
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" tests="3" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account." time="6.3534057">
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="4.386863099">
         </testcase>
-        <testcase name="When I click the remove account button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.863651699">
         </testcase>
-        <testcase name="And I get prompted to confirm my action" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I confirm the action" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the account should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.436771">
         </testcase>
     </testsuite>
 </testsuites>

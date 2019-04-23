@@ -2,10 +2,10 @@
   {
     "elements": [
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1",
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Adding a new account named TestKonto1",
+        "name": "Creating an account",
         "steps": [
           {
             "arguments": [],
@@ -13,64 +13,58 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 13251627099
+              "duration": 5005032900
             },
             "line": 4,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the add account button",
+            "name": "I click the add account button I get prompted to enter a name for the account",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1286690899
             },
-            "line": 5
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:33"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I get prompted to enter a name for the account",
+            "name": "I enter TestKonto1 as name and click the add button",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 986430400
             },
-            "line": 6
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter TestKonto1 as name",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press Add account",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:49"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "a new account named TestKonto1 should have been created",
+            "name": "the account TestKonto1 is created",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 845146099
             },
-            "line": 9
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:65"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 377077200
+              "duration": 369393100
             },
             "hidden": true,
             "match": {
@@ -82,10 +76,10 @@
         "type": "scenario"
       },
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.",
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Renaming an existing account and confirming the same name works on multiple accounts.",
+        "line": 9,
+        "name": "Renaming an account",
         "steps": [
           {
             "arguments": [],
@@ -93,91 +87,58 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 6589174199
+              "duration": 4490127499
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the configure account I should get prompted to change the name",
+            "result": {
+              "status": "passed",
+              "duration": 1290375900
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when I enter TestKonto2 as name and I click the save changes button",
+            "result": {
+              "status": "passed",
+              "duration": 976048100
             },
             "line": 12,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:95"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "I click the add account button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I get prompted to enter a name for the account",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter TestKonto2 as name",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press Add account",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press the configure account button on Testkonto2",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I rename it to TestKonto1",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "name": "a new account named TestKonto2 should have been created",
+            "name": "TestKonto1 is renamed TestKonto2",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 835817601
             },
-            "line": 19
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "renamed TestKonto1",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:110"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 294160301
+              "duration": 403748600
             },
             "hidden": true,
             "match": {
@@ -189,10 +150,10 @@
         "type": "scenario"
       },
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.",
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account",
         "keyword": "Scenario",
-        "line": 22,
-        "name": "Removing an existing account.",
+        "line": 15,
+        "name": "Removing an existing account",
         "steps": [
           {
             "arguments": [],
@@ -200,55 +161,45 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 6353405700
+              "duration": 4386863099
             },
-            "line": 23,
+            "line": 16,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the remove account button",
+            "name": "I click the remove account button on Testkonto2",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 863651699
             },
-            "line": 24
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I get prompted to confirm my action",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 25
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I confirm the action",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 26
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:149"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the account should have been removed",
+            "name": "the account TestKonto2 should have been removed",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 436771000
             },
-            "line": 27
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:162"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 204100100
+              "duration": 349982901
             },
             "hidden": true,
             "match": {
