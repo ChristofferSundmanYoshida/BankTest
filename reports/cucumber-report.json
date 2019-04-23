@@ -2,31 +2,32 @@
   {
     "elements": [
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1",
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-testkonto1",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Adding a new account named Test1",
+        "name": "Adding a new account named TestKonto1",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "name": "my-accounts page loaded",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 7037558601
             },
-            "line": 4
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "I click the add account button",
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
-            "line": 5,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:3"
-            }
+            "line": 5
           },
           {
             "arguments": [],
@@ -40,7 +41,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I enter Test1 as name",
+            "name": "I enter TestKonto1 as name",
             "result": {
               "status": "undefined"
             },
@@ -58,7 +59,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "a new account named Test1 should have been created",
+            "name": "a new account named TestKonto1 should have been created",
             "result": {
               "status": "undefined"
             },
@@ -69,7 +70,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3923853800
+              "duration": 250616001
             },
             "hidden": true,
             "match": {
@@ -81,24 +82,28 @@
         "type": "scenario"
       },
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.",
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-existing-account-and-confirming-the-same-name-works-on-multiple-accounts.",
         "keyword": "Scenario",
         "line": 11,
-        "name": "Changing name on an existing account.",
+        "name": "Renaming an existing account and confirming the same name works on multiple accounts.",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "name": "my-accounts page loaded",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 6399003800
             },
-            "line": 12
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the change account name button",
+            "name": "I click the add account button",
             "result": {
               "status": "undefined"
             },
@@ -107,7 +112,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I get prompted to enter a new name for the account",
+            "name": "I get prompted to enter a name for the account",
             "result": {
               "status": "undefined"
             },
@@ -116,7 +121,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I enter Test2 as name",
+            "name": "I enter TestKonto2 as name",
             "result": {
               "status": "undefined"
             },
@@ -125,7 +130,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "press accept changes",
+            "name": "I press Add account",
             "result": {
               "status": "undefined"
             },
@@ -133,8 +138,8 @@
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "the account should have changed name to Test2",
+            "keyword": "And ",
+            "name": "I press the configure account button on Testkonto2",
             "result": {
               "status": "undefined"
             },
@@ -142,10 +147,37 @@
           },
           {
             "arguments": [],
+            "keyword": "And ",
+            "name": "I rename it to TestKonto1",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "a new account named TestKonto2 should have been created",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "renamed TestKonto1",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2964144700
+              "duration": 294555400
             },
             "hidden": true,
             "match": {
@@ -157,53 +189,66 @@
         "type": "scenario"
       },
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;deleting-an-existing-account",
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account.",
         "keyword": "Scenario",
-        "line": 19,
-        "name": "Deleting an existing account",
+        "line": 22,
+        "name": "Removing an existing account.",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "my accounts-page loaded",
+            "name": "my-accounts page loaded",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 6210325800
             },
-            "line": 20
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:6"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the button to remove account",
+            "name": "I click the remove account button",
             "result": {
               "status": "undefined"
             },
-            "line": 21
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should be asked to confirm",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22
+            "line": 24
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "after confirming the prompt the accound should be deleted",
+            "name": "I get prompted to confirm my action",
             "result": {
               "status": "undefined"
             },
-            "line": 23
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I confirm the action",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should have been removed",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3198061600
+              "duration": 156274601
             },
             "hidden": true,
             "match": {
