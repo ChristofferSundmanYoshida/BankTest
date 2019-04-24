@@ -5,12 +5,32 @@
     "accounts": [
       {
         "name": "Lönekonto",
+<<<<<<< HEAD
         "balance": 29800,
+=======
+        "balance": 29600,
+>>>>>>> 2dc56c46559c0d4eabcc79acd633d6a7c6f5bfa6
         "history": [
           {
             "label": "",
             "amount": -100,
+<<<<<<< HEAD
             "time": "2019-04-24 12:12"
+=======
+            "time": "2019-04-24 12:10"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-04-24 09:00",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-04-24 08:58",
+            "accountName": "Lönekonto"
+>>>>>>> 2dc56c46559c0d4eabcc79acd633d6a7c6f5bfa6
           },
           {
             "label": "",
@@ -210,12 +230,32 @@
       },
       {
         "name": "Sparkonto",
+<<<<<<< HEAD
         "balance": 4700,
+=======
+        "balance": 4900,
+>>>>>>> 2dc56c46559c0d4eabcc79acd633d6a7c6f5bfa6
         "history": [
           {
             "label": "",
             "amount": 100,
+<<<<<<< HEAD
             "time": "2019-04-24 12:12"
+=======
+            "time": "2019-04-24 12:10"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-04-24 09:00",
+            "accountName": "Sparkonto"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-04-24 08:58",
+            "accountName": "Sparkonto"
+>>>>>>> 2dc56c46559c0d4eabcc79acd633d6a7c6f5bfa6
           },
           {
             "label": "",

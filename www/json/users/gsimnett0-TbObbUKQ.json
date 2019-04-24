@@ -5,12 +5,48 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 1005211,
+        "balance": 1005205,
         "history": [
           {
             "label": "vi skickar 1 till 111-1111",
             "amount": -1,
-            "time": "2019-04-24 12:12"
+            "time": "2019-04-24 12:20"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-24 12:20",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-24 12:20",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-24 12:17",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-24 12:17",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-24 12:17",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-24 12:12",
+            "accountName": "Lönekonto"
           },
           {
             "label": "vi skickar 1 till 111-1111",

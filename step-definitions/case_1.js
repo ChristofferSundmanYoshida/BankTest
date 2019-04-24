@@ -53,6 +53,7 @@ module.exports = function() {
         //clicks the alert prompt.
         let alert = await driver.switchTo().alert()
         await alert.accept()
+        await sleep(500)
       });
 
       this.Then(/^i should have the sum taken from my account$/,async function () {
@@ -90,7 +91,6 @@ module.exports = function() {
       this.Then(/^I should recieve an error message$/,async function () {
         let errorCheck = await driver.findElement(by.css("small.error")).getText()
         assert(errorCheck === "Du kan inte överföra över 30000 under de senaste 7 dagarna." || "Du har inte tillräckligt med pengar.");
-        console.log(errorCheck)
       });
 
       this.Given(/^I have Entered the correct information for transfer over the account balance$/,async function () {

@@ -8,7 +8,7 @@ let accountName2 = 'TestKonto2'
 module.exports = function() {
            
 
-      this.Given(/^my\-accounts page loaded$/, async function () {
+      this.Given(/^my\-accounts page loaded properly$/, async function () {
             
             await helpers.loadPage('http://localhost:3000/#login')
             
