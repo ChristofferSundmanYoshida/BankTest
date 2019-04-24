@@ -1,94 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-<<<<<<< HEAD
-    <testsuite name="usc_2;pewpew" tests="5" failures="0" skipped="0">
+    <testsuite name="usc_1;bg-transfer" tests="5" failures="1" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
             </property>
         </properties>
-        <testcase name="Given Överföringar andra konton has loaded" classname="usc_2;pewpew" time="3.9489173">
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;bg-transfer" time="5.55351">
         </testcase>
-        <testcase name="And I have Entered the correct information" classname="usc_2;pewpew" time="0.0001798">
+        <testcase name="And I have Entered the correct BG information" classname="usc_1;bg-transfer" time="0.2991586">
         </testcase>
-        <testcase name="When i click the send button" classname="usc_2;pewpew" time="0.000094699">
+        <testcase name="When i click the send button" classname="usc_1;bg-transfer" time="0.050871099">
         </testcase>
-        <testcase name="And i Click the confirmation promt" classname="usc_2;pewpew" time="0.0000601">
+        <testcase name="And i Click the confirmation promt" classname="usc_1;bg-transfer" time="0.004715">
         </testcase>
-        <testcase name="Then i should have the sum taken from my account" classname="usc_2;pewpew" time="0.0001001">
+        <testcase name="Then i should have the sum taken from my account" classname="usc_1;bg-transfer" time="0.024420799">
+            <failure message="NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;tr:nth-child(1) &gt; td.text-right&quot;}">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;tr:nth-child(1) &gt; td.text-right&quot;}
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64)
+    at Object.checkLegacyResponse (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\error.js:529:15)
+    at parseHttpResponse (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: WebDriver.findElement(By(css selector, tr:nth-child(1) &gt; td.text-right))
+    at thenableWebDriverProxy.schedule (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\step-definitions\case_1.js:59:37)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+From: Task: WebElement.getText()
+    at thenableWebDriverProxy.schedule (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at WebElementPromise.schedule_ (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:2015:25)
+    at WebElementPromise.getText (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:2281:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\step-definitions\case_1.js:59:92)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
         </testcase>
     </testsuite>
-    <testsuite name="usc_2;pewpew" tests="4" failures="0" skipped="0">
-=======
-<<<<<<< HEAD
-    <testsuite name="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" tests="6" failures="1" skipped="0">
-=======
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="0" skipped="0">
->>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
+    <testsuite name="usc_1;pg-transfer" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Tomas/Desktop/Projects/BankTest/features/transaktioner_internt.feature">
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
             </property>
         </properties>
-<<<<<<< HEAD
-        <testcase name="Given transfermyaccount page loaded" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="10.525397483">
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;pg-transfer" time="4.921258901">
         </testcase>
-        <testcase name="When I choose my 1st account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.002483769">
+        <testcase name="And I have Entered the correct PG information" classname="usc_1;pg-transfer" time="0.2634603">
         </testcase>
-        <testcase name="And I enter amount 100 as Summa (SEK)" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.031993183">
+        <testcase name="When i click the send button" classname="usc_1;pg-transfer" time="0.0537389">
         </testcase>
-        <testcase name="And I choose my 2nd account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.003956623">
+        <testcase name="And i Click the confirmation promt" classname="usc_1;pg-transfer" time="0.0179706">
         </testcase>
-        <testcase name="And I click Utför" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.999901013">
-        </testcase>
-        <testcase name="Then 100 SEK should be moved from my 1st account to my 2nd account" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.174845774">
-            <failure message="AssertionError: fel">AssertionError: fel
-    at createWorld.&lt;anonymous&gt; (C:\Users\Tomas\Desktop\Projects\BankTest\step-definitions\transaktioner_internt.js:90:5)
-    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
-=======
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="5.0050329">
-        </testcase>
-        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="1.286690899">
-        </testcase>
-        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.9864304">
-        </testcase>
-        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.845146099">
+        <testcase name="Then i should have the sum taken from my account" classname="usc_1;pg-transfer" time="0.032396799">
         </testcase>
     </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" tests="4" failures="0" skipped="0">
->>>>>>> 95408bbaab09face2f405dc46451c12166aa3a25
+    <testsuite name="usc_1;other-transfer" tests="5" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
+            </property>
+        </properties>
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;other-transfer" time="4.9837713">
+        </testcase>
+        <testcase name="And I have Entered the correct Other information" classname="usc_1;other-transfer" time="0.2876795">
+        </testcase>
+        <testcase name="When i click the send button" classname="usc_1;other-transfer" time="0.063959401">
+        </testcase>
+        <testcase name="And i Click the confirmation promt" classname="usc_1;other-transfer" time="0.006567">
+        </testcase>
+        <testcase name="Then i should have the sum taken from my account" classname="usc_1;other-transfer" time="0.0105865">
+            <failure message="NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;tr:nth-child(1) &gt; td.text-right&quot;}">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;tr:nth-child(1) &gt; td.text-right&quot;}
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64)
+    at Object.checkLegacyResponse (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\error.js:529:15)
+    at parseHttpResponse (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+From: Task: WebDriver.findElement(By(css selector, tr:nth-child(1) &gt; td.text-right))
+    at thenableWebDriverProxy.schedule (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\step-definitions\case_1.js:59:37)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+From: Task: WebElement.getText()
+    at thenableWebDriverProxy.schedule (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at WebElementPromise.schedule_ (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:2015:25)
+    at WebElementPromise.getText (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\node_modules\selenium-webdriver\lib\webdriver.js:2281:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\danol\OneDrive\Skrivbord\mvt18\testdesign\Sprint1\banken\BankTest\step-definitions\case_1.js:59:92)
+    at process._tickCallback (internal/process/next_tick.js:61:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="usc_1;over-the-transfer-limit" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
+            </property>
+        </properties>
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;over-the-transfer-limit" time="4.841095601">
+        </testcase>
+        <testcase name="And I have Entered the correct information for transfer over the limit" classname="usc_1;over-the-transfer-limit" time="0.2814805">
+        </testcase>
+        <testcase name="When i click the send button" classname="usc_1;over-the-transfer-limit" time="0.054051901">
+        </testcase>
+        <testcase name="Then I should recieve an error message" classname="usc_1;over-the-transfer-limit" time="0.031279299">
+        </testcase>
+    </testsuite>
+    <testsuite name="usc_1;over-the-account-balance" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
+            </property>
+        </properties>
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;over-the-account-balance" time="4.8651168">
+        </testcase>
+        <testcase name="And I have Entered the correct information for transfer over the account balance" classname="usc_1;over-the-account-balance" time="0.2944651">
+        </testcase>
+        <testcase name="When i click the send button" classname="usc_1;over-the-account-balance" time="0.0582697">
+        </testcase>
+        <testcase name="Then I should recieve an error message" classname="usc_1;over-the-account-balance" time="0.031309499">
+        </testcase>
+    </testsuite>
+    <testsuite name="usc_1;pewpew" tests="4" failures="0" skipped="3">
         <properties>
             <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_2.feature">
             </property>
         </properties>
-<<<<<<< HEAD
-        <testcase name="Given my-accounts page loaded" classname="usc_2;pewpew" time="3.2641709">
+        <testcase name="Given my-accounts page loaded" classname="usc_1;pewpew">
         </testcase>
-        <testcase name="And i have enterd my account" classname="usc_2;pewpew" time="0.069553601">
+        <testcase name="And i have enterd my account" classname="usc_1;pewpew">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="When And i Click Visa mer" classname="usc_2;pewpew" time="0.1229502">
+        <testcase name="When And i Click Visa mer" classname="usc_1;pewpew">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then i should see more of my transaction history for that account" classname="usc_2;pewpew" time="0.0086999">
-=======
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="4.490127499">
-        </testcase>
-        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.2903759">
-        </testcase>
-        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.9760481">
-        </testcase>
-        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.835817601">
+        <testcase name="Then i should see more of my transaction history for that account" classname="usc_1;pewpew">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" tests="3" failures="0" skipped="0">
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="0" skipped="3">
         <properties>
-            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="4.386863099">
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account">
         </testcase>
-        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.863651699">
+        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.436771">
->>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
->>>>>>> 95408bbaab09face2f405dc46451c12166aa3a25
+        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" tests="4" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/konto_changes.feature">
+            </property>
+        </properties>
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account">
+        </testcase>
+        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" tests="3" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/konto_changes.feature">
+            </property>
+        </properties>
+        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account">
+        </testcase>
+        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/transaktioner_internt.feature">
+            </property>
+        </properties>
+        <testcase name="Given transfermyaccount page loaded" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="9.2827765">
+        </testcase>
+        <testcase name="When I choose my 1st account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.0068942">
+        </testcase>
+        <testcase name="And I enter amount 100 as Summa (SEK)" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.0170387">
+        </testcase>
+        <testcase name="And I choose my 2nd account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.006085">
+        </testcase>
+        <testcase name="And I click Utför" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.0117086">
+        </testcase>
+        <testcase name="Then 100 SEK should be moved from my 1st account to my 2nd account" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.0941276">
         </testcase>
     </testsuite>
 </testsuites>
