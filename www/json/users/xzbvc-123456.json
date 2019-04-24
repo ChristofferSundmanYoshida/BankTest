@@ -1,0 +1,34 @@
+{
+  "data": {
+    "username": "xzbvc",
+    "myFile": "users/xzbvc-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 20999,
+        "history": [
+          {
+            "label": "deck",
+            "amount": -1,
+            "time": "4/20/2019, 10:14 PM"
+          },
+          {
+            "label": "",
+            "amount": -29000,
+            "time": "4/20/2019, 10:00 AM",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": 50000,
+            "time": "4/20/2019, 9:59 AM",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "6615-045936",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

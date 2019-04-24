@@ -1,79 +1,76 @@
 [
   {
+    "description": "   As a customer i want to be able to send/pay other people ",
     "elements": [
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;adding-a-new-account-named-test1",
+        "id": "usc_1;bg-transfer",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Adding a new account named Test1",
+        "line": 5,
+        "name": "BG transfer",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "my-accounts page loaded",
+            "name": "Överföringar andra konton has loaded",
             "result": {
-              "status": "undefined"
-            },
-            "line": 4
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I click the add account button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:3"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I get prompted to enter a name for the account",
-            "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7130292500
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:8"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I enter Test1 as name",
+            "name": "I have Entered the correct BG information",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 586696800
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:13"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 143793700
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "press Add account",
+            "name": "i Click the confirmation promt",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 516241801
             },
-            "line": 8,
+            "line": 9,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:17"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:52"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "a new account named Test1 should have been created",
+            "name": "i should have the sum taken from my account",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 38571901
             },
-            "line": 9,
+            "line": 10,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:21"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:59"
             }
           },
           {
@@ -81,7 +78,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4545215100
+              "duration": 534426701
             },
             "hidden": true,
             "match": {
@@ -93,74 +90,486 @@
         "type": "scenario"
       },
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;changing-name-on-an-existing-account.",
+        "id": "usc_1;pg-transfer",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Changing name on an existing account.",
+        "line": 12,
+        "name": "PG transfer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Överföringar andra konton has loaded",
+            "result": {
+              "status": "passed",
+              "duration": 5895670800
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have Entered the correct PG information",
+            "result": {
+              "status": "passed",
+              "duration": 567334599
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 133701700
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i Click the confirmation promt",
+            "result": {
+              "status": "passed",
+              "duration": 560495799
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should have the sum taken from my account",
+            "result": {
+              "status": "passed",
+              "duration": 38745899
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 607051000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "usc_1;other-transfer",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Other transfer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Överföringar andra konton has loaded",
+            "result": {
+              "status": "passed",
+              "duration": 6461544701
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have Entered the correct Other information",
+            "result": {
+              "status": "passed",
+              "duration": 624548100
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 165946099
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i Click the confirmation promt",
+            "result": {
+              "status": "passed",
+              "duration": 514823400
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should have the sum taken from my account",
+            "result": {
+              "status": "passed",
+              "duration": 60973200
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 595280900
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "usc_1;over-the-transfer-limit",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "over the transfer limit",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Överföringar andra konton has loaded",
+            "result": {
+              "status": "passed",
+              "duration": 6183828800
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have Entered the correct information for transfer over the limit",
+            "result": {
+              "status": "passed",
+              "duration": 800800300
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 150653100
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should recieve an error message",
+            "result": {
+              "status": "passed",
+              "duration": 53090900
+            },
+            "line": 30,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:91"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 502009901
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "usc_1;over-the-account-balance",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "over the account balance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Överföringar andra konton has loaded",
+            "result": {
+              "status": "passed",
+              "duration": 5633409400
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have Entered the correct information for transfer over the account balance",
+            "result": {
+              "status": "passed",
+              "duration": 639500099
+            },
+            "line": 34,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i click the send button",
+            "result": {
+              "status": "passed",
+              "duration": 171514299
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should recieve an error message",
+            "result": {
+              "status": "passed",
+              "duration": 48307301
+            },
+            "line": 36,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:91"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 476446899
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "usc_1",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "usc_1",
+    "tags": [],
+    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_1.feature"
+  },
+  {
+    "description": "   as a customer i want to be able to view more information/transactions by clicking more.",
+    "elements": [
+      {
+        "id": "usc_1;pewpew",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "pewpew",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
             "name": "my-accounts page loaded",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 4095990399
             },
-            "line": 12
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I click the change account name button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I get prompted to enter a new name for the account",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter Test2 as name",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
+            "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:13"
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "press accept changes",
+            "name": "i have enterd my account",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 166968300
             },
-            "line": 16
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "And i Click Visa mer",
+            "result": {
+              "status": "passed",
+              "duration": 240914700
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:26"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the account should have changed name to Test2",
+            "name": "i should see more of my transaction history for that account",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 19564700
             },
-            "line": 17
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:34"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2926911600
+              "duration": 411146900
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "usc_1",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "usc_1",
+    "tags": [],
+    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_2.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Creating an account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "my-accounts page loaded properly",
+            "result": {
+              "status": "passed",
+              "duration": 4193551300
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the add account button I get prompted to enter a name for the account",
+            "result": {
+              "status": "passed",
+              "duration": 419220200
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter TestKonto1 as name and click the add button",
+            "result": {
+              "status": "passed",
+              "duration": 613315300
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account TestKonto1 is created",
+            "result": {
+              "status": "passed",
+              "duration": 332054399
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 573750900
             },
             "hidden": true,
             "match": {
@@ -172,53 +581,130 @@
         "type": "scenario"
       },
       {
-        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;deleting-an-existing-account",
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account",
         "keyword": "Scenario",
-        "line": 19,
-        "name": "Deleting an existing account",
+        "line": 9,
+        "name": "Renaming an account",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "my accounts-page loaded",
+            "name": "my-accounts page loaded properly",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 4612237500
             },
-            "line": 20
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click the button to remove account",
+            "name": "I click the configure account I should get prompted to change the name",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1030163900
             },
-            "line": 21
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should be asked to confirm",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:79"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "after confirming the prompt the accound should be deleted",
+            "name": "when I enter TestKonto2 as name and I click the save changes button",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1060122301
             },
-            "line": 23
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "TestKonto1 is renamed TestKonto2",
+            "result": {
+              "status": "passed",
+              "duration": 852140800
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:110"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3008842301
+              "duration": 496743200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Removing an existing account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "my-accounts page loaded properly",
+            "result": {
+              "status": "passed",
+              "duration": 4148274200
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the remove account button on Testkonto2",
+            "result": {
+              "status": "passed",
+              "duration": 971924200
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account TestKonto2 should have been removed",
+            "result": {
+              "status": "passed",
+              "duration": 486500700
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 630389000
             },
             "hidden": true,
             "match": {
@@ -236,5 +722,115 @@
     "name": "As a customer I want to be able to create, change and delete accounts.",
     "tags": [],
     "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Transfer 100 SEK from 1st account to 2nd account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "transfermyaccount page loaded",
+            "result": {
+              "status": "passed",
+              "duration": 5433194400
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I choose my 1st account as Konto",
+            "result": {
+              "status": "passed",
+              "duration": 202995900
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter amount 100 as Summa (SEK)",
+            "result": {
+              "status": "passed",
+              "duration": 228890800
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose my 2nd account as Konto",
+            "result": {
+              "status": "passed",
+              "duration": 203431800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click Utför",
+            "result": {
+              "status": "passed",
+              "duration": 202295399
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "100 SEK should be moved from my 1st account to my 2nd account",
+            "result": {
+              "status": "passed",
+              "duration": 424825100
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:78"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 566898501
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-customer-i-want-to-transfer-money-between-my-own-accounts",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "As a customer I want to transfer money between my own accounts",
+    "tags": [],
+    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/transaktioner_internt.feature"
   }
 ]
