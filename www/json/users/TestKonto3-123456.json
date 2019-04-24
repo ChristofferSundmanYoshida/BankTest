@@ -1,0 +1,93 @@
+{
+  "data": {
+    "username": "TestKonto3",
+    "myFile": "users/TestKonto3-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 49700,
+        "history": [
+          {
+            "label": "Större muta",
+            "amount": -300,
+            "time": "2019-04-24 13:41"
+          },
+          {
+            "label": "Liten muta",
+            "amount": -50000,
+            "time": "2019-04-24 13:20",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Muta",
+            "amount": 50000,
+            "time": "2019-04-24 13:19",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Muta",
+            "amount": 50000,
+            "time": "2019-04-24 13:17",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "8665-950650",
+        "⚙": "Account"
+      },
+      {
+        "name": "Testkonto-01",
+        "balance": 45000,
+        "history": [
+          {
+            "label": "Liten muta",
+            "amount": -5000,
+            "time": "2019-04-24 13:26",
+            "accountName": "Testkonto-01"
+          },
+          {
+            "label": "Muta",
+            "amount": 50000,
+            "time": "2019-04-24 13:18",
+            "accountName": "Testkonto-01"
+          }
+        ],
+        "accountNumber": "4780-661073",
+        "⚙": "Account"
+      },
+      {
+        "name": "Testkonto-02",
+        "balance": 50000,
+        "history": [
+          {
+            "label": "Liten muta",
+            "amount": 50000,
+            "time": "2019-04-24 13:20",
+            "accountName": "Testkonto-02"
+          }
+        ],
+        "accountNumber": "3339-197767",
+        "⚙": "Account"
+      },
+      {
+        "name": "Testkonto-03",
+        "balance": 50300,
+        "history": [
+          {
+            "label": "Större muta",
+            "amount": 300,
+            "time": "2019-04-24 13:41"
+          },
+          {
+            "label": "Muta",
+            "amount": 50000,
+            "time": "2019-04-24 13:20",
+            "accountName": "Testkonto-03"
+          }
+        ],
+        "accountNumber": "6791-444795",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
