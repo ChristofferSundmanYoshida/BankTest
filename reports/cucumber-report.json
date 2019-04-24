@@ -14,7 +14,7 @@
             "name": "Överföringar andra konton has loaded",
             "result": {
               "status": "passed",
-              "duration": 5889626501
+              "duration": 13285357200
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I have Entered the correct information",
             "result": {
               "status": "passed",
-              "duration": 232101
+              "duration": 337000
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "i click the send button",
             "result": {
               "status": "passed",
-              "duration": 182900
+              "duration": 256900
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "i Click the confirmation promt",
             "result": {
               "status": "passed",
-              "duration": 118301
+              "duration": 185400
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "i should have the sum taken from my account",
             "result": {
               "status": "passed",
-              "duration": 110400
+              "duration": 170700
             },
             "line": 11,
             "match": {
@@ -78,7 +78,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2325853301
+              "duration": 2311378199
             },
             "hidden": true,
             "match": {
@@ -112,7 +112,7 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 4309272300
+              "duration": 4092294000
             },
             "line": 7,
             "match": {
@@ -125,7 +125,7 @@
             "name": "i have enterd my account",
             "result": {
               "status": "passed",
-              "duration": 166747500
+              "duration": 153814800
             },
             "line": 8,
             "match": {
@@ -138,7 +138,7 @@
             "name": "And i Click Visa mer",
             "result": {
               "status": "passed",
-              "duration": 217363100
+              "duration": 216693801
             },
             "line": 9,
             "match": {
@@ -151,7 +151,7 @@
             "name": "i should see more of my transaction history for that account",
             "result": {
               "status": "passed",
-              "duration": 15049101
+              "duration": 15818100
             },
             "line": 10,
             "match": {
@@ -163,7 +163,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 472661199
+              "duration": 483259800
             },
             "hidden": true,
             "match": {
@@ -196,7 +196,7 @@
             "name": "my-accounts page loaded properly",
             "result": {
               "status": "passed",
-              "duration": 4491520599
+              "duration": 4404190200
             },
             "line": 4,
             "match": {
@@ -209,7 +209,7 @@
             "name": "I click the add account button I get prompted to enter a name for the account",
             "result": {
               "status": "passed",
-              "duration": 536137801
+              "duration": 516291401
             },
             "line": 5,
             "match": {
@@ -222,7 +222,7 @@
             "name": "I enter TestKonto1 as name and click the add button",
             "result": {
               "status": "passed",
-              "duration": 693317900
+              "duration": 641015899
             },
             "line": 6,
             "match": {
@@ -235,7 +235,7 @@
             "name": "the account TestKonto1 is created",
             "result": {
               "status": "passed",
-              "duration": 289460201
+              "duration": 276637900
             },
             "line": 7,
             "match": {
@@ -247,7 +247,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 603488400
+              "duration": 460634899
             },
             "hidden": true,
             "match": {
@@ -270,7 +270,7 @@
             "name": "my-accounts page loaded properly",
             "result": {
               "status": "passed",
-              "duration": 4993370600
+              "duration": 4717765799
             },
             "line": 10,
             "match": {
@@ -283,7 +283,7 @@
             "name": "I click the configure account I should get prompted to change the name",
             "result": {
               "status": "passed",
-              "duration": 1028241500
+              "duration": 1012733400
             },
             "line": 11,
             "match": {
@@ -296,7 +296,7 @@
             "name": "when I enter TestKonto2 as name and I click the save changes button",
             "result": {
               "status": "passed",
-              "duration": 1147090900
+              "duration": 1273893801
             },
             "line": 12,
             "match": {
@@ -309,7 +309,7 @@
             "name": "TestKonto1 is renamed TestKonto2",
             "result": {
               "status": "passed",
-              "duration": 919868000
+              "duration": 871395100
             },
             "line": 13,
             "match": {
@@ -321,7 +321,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 520275899
+              "duration": 482151099
             },
             "hidden": true,
             "match": {
@@ -344,7 +344,7 @@
             "name": "my-accounts page loaded properly",
             "result": {
               "status": "passed",
-              "duration": 4228722900
+              "duration": 4489035401
             },
             "line": 16,
             "match": {
@@ -357,7 +357,7 @@
             "name": "I click the remove account button on Testkonto2",
             "result": {
               "status": "passed",
-              "duration": 960460400
+              "duration": 944338499
             },
             "line": 17,
             "match": {
@@ -370,7 +370,7 @@
             "name": "the account TestKonto2 should have been removed",
             "result": {
               "status": "passed",
-              "duration": 451449500
+              "duration": 479873400
             },
             "line": 18,
             "match": {
@@ -382,7 +382,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 445965300
+              "duration": 615493800
             },
             "hidden": true,
             "match": {
@@ -415,7 +415,7 @@
             "name": "transfermyaccount page loaded",
             "result": {
               "status": "passed",
-              "duration": 10029352099
+              "duration": 10377568900
             },
             "line": 5,
             "match": {
@@ -428,7 +428,7 @@
             "name": "I choose my 1st account as Konto",
             "result": {
               "status": "passed",
-              "duration": 1003355200
+              "duration": 1000916000
             },
             "line": 6,
             "match": {
@@ -441,7 +441,7 @@
             "name": "I enter amount 100 as Summa (SEK)",
             "result": {
               "status": "passed",
-              "duration": 1054017400
+              "duration": 1020781399
             },
             "line": 7,
             "match": {
@@ -454,7 +454,7 @@
             "name": "I choose my 2nd account as Konto",
             "result": {
               "status": "passed",
-              "duration": 1018992901
+              "duration": 1001613001
             },
             "line": 8,
             "match": {
@@ -467,7 +467,7 @@
             "name": "I click Utför",
             "result": {
               "status": "passed",
-              "duration": 1014677300
+              "duration": 1004356500
             },
             "line": 9,
             "match": {
@@ -480,7 +480,7 @@
             "name": "100 SEK should be moved from my 1st account to my 2nd account",
             "result": {
               "status": "passed",
-              "duration": 1321329500
+              "duration": 1281789200
             },
             "line": 10,
             "match": {
@@ -492,7 +492,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 692659000
+              "duration": 579389000
             },
             "hidden": true,
             "match": {
