@@ -1,80 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-<<<<<<< HEAD
-    <testsuite name="usc_2;pewpew" tests="5" failures="0" skipped="0">
+    <testsuite name="usc_1;bg-transfer" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_1.feature">
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_1.feature">
             </property>
         </properties>
-        <testcase name="Given Överföringar andra konton has loaded" classname="usc_2;pewpew" time="3.9489173">
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;bg-transfer" time="7.1302925">
         </testcase>
-        <testcase name="And I have Entered the correct information" classname="usc_2;pewpew" time="0.0001798">
+        <testcase name="And I have Entered the correct BG information" classname="usc_1;bg-transfer" time="0.5866968">
         </testcase>
-        <testcase name="When i click the send button" classname="usc_2;pewpew" time="0.000094699">
+        <testcase name="When i click the send button" classname="usc_1;bg-transfer" time="0.1437937">
         </testcase>
-        <testcase name="And i Click the confirmation promt" classname="usc_2;pewpew" time="0.0000601">
+        <testcase name="And i Click the confirmation promt" classname="usc_1;bg-transfer" time="0.516241801">
         </testcase>
-        <testcase name="Then i should have the sum taken from my account" classname="usc_2;pewpew" time="0.0001001">
+        <testcase name="Then i should have the sum taken from my account" classname="usc_1;bg-transfer" time="0.038571901">
         </testcase>
     </testsuite>
-    <testsuite name="usc_2;pewpew" tests="4" failures="0" skipped="0">
-=======
-<<<<<<< HEAD
-    <testsuite name="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" tests="6" failures="1" skipped="0">
-=======
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="0" skipped="0">
->>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
+    <testsuite name="usc_1;pg-transfer" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Tomas/Desktop/Projects/BankTest/features/transaktioner_internt.feature">
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_1.feature">
             </property>
         </properties>
-<<<<<<< HEAD
-        <testcase name="Given transfermyaccount page loaded" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="10.525397483">
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;pg-transfer" time="5.8956708">
         </testcase>
-        <testcase name="When I choose my 1st account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.002483769">
+        <testcase name="And I have Entered the correct PG information" classname="usc_1;pg-transfer" time="0.567334599">
         </testcase>
-        <testcase name="And I enter amount 100 as Summa (SEK)" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.031993183">
+        <testcase name="When i click the send button" classname="usc_1;pg-transfer" time="0.1337017">
         </testcase>
-        <testcase name="And I choose my 2nd account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.003956623">
+        <testcase name="And i Click the confirmation promt" classname="usc_1;pg-transfer" time="0.560495799">
         </testcase>
-        <testcase name="And I click Utför" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.999901013">
+        <testcase name="Then i should have the sum taken from my account" classname="usc_1;pg-transfer" time="0.038745899">
         </testcase>
-        <testcase name="Then 100 SEK should be moved from my 1st account to my 2nd account" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="1.174845774">
-            <failure message="AssertionError: fel">AssertionError: fel
-    at createWorld.&lt;anonymous&gt; (C:\Users\Tomas\Desktop\Projects\BankTest\step-definitions\transaktioner_internt.js:90:5)
-    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
-=======
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="5.0050329">
+    </testsuite>
+    <testsuite name="usc_1;other-transfer" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_1.feature">
+            </property>
+        </properties>
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;other-transfer" time="6.461544701">
         </testcase>
-        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="1.286690899">
+        <testcase name="And I have Entered the correct Other information" classname="usc_1;other-transfer" time="0.6245481">
         </testcase>
-        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.9864304">
+        <testcase name="When i click the send button" classname="usc_1;other-transfer" time="0.165946099">
         </testcase>
-        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.845146099">
+        <testcase name="And i Click the confirmation promt" classname="usc_1;other-transfer" time="0.5148234">
+        </testcase>
+        <testcase name="Then i should have the sum taken from my account" classname="usc_1;other-transfer" time="0.0609732">
+        </testcase>
+    </testsuite>
+    <testsuite name="usc_1;over-the-transfer-limit" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_1.feature">
+            </property>
+        </properties>
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;over-the-transfer-limit" time="6.1838288">
+        </testcase>
+        <testcase name="And I have Entered the correct information for transfer over the limit" classname="usc_1;over-the-transfer-limit" time="0.8008003">
+        </testcase>
+        <testcase name="When i click the send button" classname="usc_1;over-the-transfer-limit" time="0.1506531">
+        </testcase>
+        <testcase name="Then I should recieve an error message" classname="usc_1;over-the-transfer-limit" time="0.0530909">
+        </testcase>
+    </testsuite>
+    <testsuite name="usc_1;over-the-account-balance" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_1.feature">
+            </property>
+        </properties>
+        <testcase name="Given Överföringar andra konton has loaded" classname="usc_1;over-the-account-balance" time="5.6334094">
+        </testcase>
+        <testcase name="And I have Entered the correct information for transfer over the account balance" classname="usc_1;over-the-account-balance" time="0.639500099">
+        </testcase>
+        <testcase name="When i click the send button" classname="usc_1;over-the-account-balance" time="0.171514299">
+        </testcase>
+        <testcase name="Then I should recieve an error message" classname="usc_1;over-the-account-balance" time="0.048307301">
+        </testcase>
+    </testsuite>
+    <testsuite name="usc_1;pewpew" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_2.feature">
+            </property>
+        </properties>
+        <testcase name="Given my-accounts page loaded" classname="usc_1;pewpew" time="4.095990399">
+        </testcase>
+        <testcase name="And i have enterd my account" classname="usc_1;pewpew" time="0.1669683">
+        </testcase>
+        <testcase name="When And i Click Visa mer" classname="usc_1;pewpew" time="0.2409147">
+        </testcase>
+        <testcase name="Then i should see more of my transaction history for that account" classname="usc_1;pewpew" time="0.0195647">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
+            </property>
+        </properties>
+        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="4.1935513">
+        </testcase>
+        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.4192202">
+        </testcase>
+        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.6133153">
+        </testcase>
+        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.332054399">
         </testcase>
     </testsuite>
     <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" tests="4" failures="0" skipped="0">
->>>>>>> 95408bbaab09face2f405dc46451c12166aa3a25
         <properties>
-            <property name="URI" value="C:/Users/danol/OneDrive/Skrivbord/mvt18/testdesign/Sprint1/banken/BankTest/features/case_2.feature">
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-<<<<<<< HEAD
-        <testcase name="Given my-accounts page loaded" classname="usc_2;pewpew" time="3.2641709">
+        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="4.6122375">
         </testcase>
-        <testcase name="And i have enterd my account" classname="usc_2;pewpew" time="0.069553601">
+        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.0301639">
         </testcase>
-        <testcase name="When And i Click Visa mer" classname="usc_2;pewpew" time="0.1229502">
+        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.060122301">
         </testcase>
-        <testcase name="Then i should see more of my transaction history for that account" classname="usc_2;pewpew" time="0.0086999">
-=======
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="4.490127499">
-        </testcase>
-        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.2903759">
-        </testcase>
-        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.9760481">
-        </testcase>
-        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.835817601">
+        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.8521408">
         </testcase>
     </testsuite>
     <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" tests="3" failures="0" skipped="0">
@@ -82,13 +123,29 @@
             <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="4.386863099">
+        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="4.1482742">
         </testcase>
-        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.863651699">
+        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.9719242">
         </testcase>
-        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.436771">
->>>>>>> 654e5cbe46c997e2b6e2d84e54369c90035feb2d
->>>>>>> 95408bbaab09face2f405dc46451c12166aa3a25
+        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.4865007">
+        </testcase>
+    </testsuite>
+    <testsuite name="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/transaktioner_internt.feature">
+            </property>
+        </properties>
+        <testcase name="Given transfermyaccount page loaded" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="5.4331944">
+        </testcase>
+        <testcase name="When I choose my 1st account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.2029959">
+        </testcase>
+        <testcase name="And I enter amount 100 as Summa (SEK)" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.2288908">
+        </testcase>
+        <testcase name="And I choose my 2nd account as Konto" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.2034318">
+        </testcase>
+        <testcase name="And I click Utför" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.202295399">
+        </testcase>
+        <testcase name="Then 100 SEK should be moved from my 1st account to my 2nd account" classname="as-a-customer-i-want-to-transfer-money-between-my-own-accounts;transfer-100-sek-from-1st-account-to-2nd-account" time="0.4248251">
         </testcase>
     </testsuite>
 </testsuites>

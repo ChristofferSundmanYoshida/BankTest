@@ -1,4 +1,4 @@
-Feature: usc_2
+Feature: usc_1
 
    as a customer i want to be able to view more information/transactions by clicking more.
 
