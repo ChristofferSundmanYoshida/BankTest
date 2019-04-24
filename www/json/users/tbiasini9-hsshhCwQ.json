@@ -5,12 +5,18 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 29400,
+        "balance": 29500,
         "history": [
           {
             "label": "",
             "amount": -100,
-            "time": "2019-04-24 12:25"
+            "time": "2019-04-24 12:43"
+          },
+          {
+            "label": "",
+            "amount": -100,
+            "time": "2019-04-24 12:25",
+            "accountName": "Lönekonto"
           },
           {
             "label": "",
@@ -234,12 +240,18 @@
       },
       {
         "name": "Sparkonto",
-        "balance": 5100,
+        "balance": 5000,
         "history": [
           {
             "label": "",
             "amount": 100,
-            "time": "2019-04-24 12:25"
+            "time": "2019-04-24 12:43"
+          },
+          {
+            "label": "",
+            "amount": 100,
+            "time": "2019-04-24 12:25",
+            "accountName": "Sparkonto"
           },
           {
             "label": "",
