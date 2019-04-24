@@ -20,77 +20,73 @@ module.exports = function () {
     let password = await driver.findElement(by.css('input#password'))
 
     input.sendKeys(namn)
-    await sleep(1000)
+    await sleep(500)
 
     password.sendKeys(pw)
-    await sleep(1000)
+    await sleep(500)
 
     await driver.findElement(by.css('button.btn.btn-primary.float-right.mt-3')).click()
-    await sleep(1000)
+    await sleep(500)
 
     // loadpage myaccounts so balances can be fetched
     await helpers.loadPage('http://localhost:3000/#my-accounts')
-    await sleep(1000)
+    await sleep(500)
 
     //fetching balance from account before the transaction
     balanceBefore1 = await driver.findElement(by.css('tr:nth-child(1) > td.text-right')).getText()
     balanceBefore1 = balanceBefore1.replace(/\D/g, '') / 100; //remove all characters that are not numbers, and converting to an int.
-    console.log(balanceBefore1)
 
     //fetching balance from account before the transaction
     balanceBefore2 = await driver.findElement(by.css('tr:nth-child(2) > td.text-right')).getText()
     balanceBefore2 = balanceBefore2.replace(/\D/g, '') / 100; //remove all characters that are not numbers, and converting to an int.
-    console.log(balanceBefore2)
 
-    await sleep(1000)
+    await sleep(500)
 
     //loading page for transfer between my accounts
     await helpers.loadPage('http://localhost:3000/#transfermyaccount')
-    await sleep(1000)
+    await sleep(500)
 
   });
 
   this.When(/^I choose my 1st account as Konto$/, async function () {
     //choosing 1st account as "from" account in drop down menu
     driver.findElement(by.css('select#fromAccountNumber.form-control > option:nth-child(1)')).click();
-    await sleep(1000)
+    await sleep(500)
   });
 
   this.When(/^I enter amount (\d+) as Summa \(SEK\)$/, async function (arg1) {
     //entering amount
     let inputAmount = await driver.findElement(by.css('input#sum.form-control'))
     inputAmount.sendKeys(amount)
-    await sleep(1000)
+    await sleep(500)
   });
 
   this.When(/^I choose my 2nd account as Konto$/, async function () {
     //choosing 2nd account as "to" account in drop down menu
     driver.findElement(by.css('select#toAccountNumber.form-control > option:nth-child(2)')).click();
-    await sleep(1000)
+    await sleep(500)
   });
 
   this.When(/^I click Utför$/, async function () {
     //click button for execute transaction "Utför"
     driver.findElement(by.css('button.btn.btn-primary.float-right.mt-3')).click()
-    await sleep(1000)
+    await sleep(500)
   });
 
   this.Then(/^(\d+) SEK should be moved from my (\d+)st account to my (\d+)nd account$/, async function (arg1, arg2, arg3) {
     //loading my account so balances after transaction can be fetched
     await helpers.loadPage('http://localhost:3000/#my-accounts')
-    await sleep(1000)
+    await sleep(500)
 
     //fetching balance after the transaction 
     balanceAfter1 = await driver.findElement(by.css('tr:nth-child(1) > td.text-right')).getText()
     //remove all characters that are not numbers, and converting to an int.
     balanceAfter1 = balanceAfter1.replace(/\D/g, '') / 100;
-    console.log(balanceAfter1)
 
     //fetching balance after the transaction
     balanceAfter2 = await driver.findElement(by.css('tr:nth-child(2) > td.text-right')).getText()
     //remove all characters that are not numbers, and converting to an int.
     balanceAfter2 = balanceAfter2.replace(/\D/g, '') / 100;
-    console.log(balanceAfter2)
 
     diff1 = balanceBefore1 - balanceAfter1
     diff2 = balanceAfter2 - balanceBefore2
