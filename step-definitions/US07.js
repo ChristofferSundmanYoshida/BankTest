@@ -66,10 +66,11 @@ module.exports = function() {
           
       this.Then(/^the account TestKonto(\d+) is created$/, async function (arg1) {
 
-            konto = await driver.findElement(by.css('.accounts tr a')).getText()
+          await sleep(400)    
+        konto = await driver.findElement(by.css('.accounts tr a')).getText()
             await konto[0]
 
-            await sleep(100)
+            await sleep(400)
 
             assert(konto === 'TestKonto1', 'fel')
 
@@ -80,7 +81,7 @@ module.exports = function() {
 
       this.When(/^I click the configure account I should get prompted to change the name$/, async function () {
             
-            await sleep (100)
+            await sleep (400)
             
             await driver.findElement(by.css('button.changers.btn.btn-primary')).click()
 

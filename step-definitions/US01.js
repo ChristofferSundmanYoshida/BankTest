@@ -1,9 +1,12 @@
+// This test requires you to manually delete David and David-123456 from the JSON directories
+// We know how to solve this, either by creating a variable that holds randomized names and creates those
+// or, delete the JSON files in the beginning of the test (this we dont know how to yet tho).
+// Due to time constraints we were not able to do this before sprint end.
+
 let { $, sleep } = require('./funcs');
 
 let namn = 'David'
 let pw = '123456'
-
-'body > main > div > aside > nav > ul > li:nth-child(3) > button'
 
 module.exports = function () {
 

@@ -5,12 +5,66 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 1005171,
+        "balance": 1005162,
         "history": [
           {
             "label": "vi skickar 1 till 111-1111",
             "amount": -1,
-            "time": "2019-04-25 09:41"
+            "time": "2019-04-25 10:07"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:07",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:07",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:04",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:04",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:03",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:00",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:00",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 10:00",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "vi skickar 1 till 111-1111",
+            "amount": -1,
+            "time": "2019-04-25 09:41",
+            "accountName": "Lönekonto"
           },
           {
             "label": "vi skickar 1 till 111-1111",
