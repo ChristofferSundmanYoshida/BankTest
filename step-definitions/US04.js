@@ -35,12 +35,10 @@ module.exports = function () {
     //fetching balance from account before the transaction
     balanceBefore1 = await driver.findElement(by.css('tr:nth-child(1) > td.text-right')).getText()
     balanceBefore1 = balanceBefore1.replace(/\D/g, '') / 100; //remove all characters that are not numbers, and converting to an int.
-    console.log(balanceBefore1)
 
     //fetching balance from account before the transaction
     balanceBefore2 = await driver.findElement(by.css('tr:nth-child(2) > td.text-right')).getText()
     balanceBefore2 = balanceBefore2.replace(/\D/g, '') / 100; //remove all characters that are not numbers, and converting to an int.
-    console.log(balanceBefore2)
 
     await sleep(200)
 
@@ -84,13 +82,11 @@ module.exports = function () {
     balanceAfter1 = await driver.findElement(by.css('tr:nth-child(1) > td.text-right')).getText()
     //remove all characters that are not numbers, and converting to an int.
     balanceAfter1 = balanceAfter1.replace(/\D/g, '') / 100;
-    console.log(balanceAfter1)
 
     //fetching balance after the transaction
     balanceAfter2 = await driver.findElement(by.css('tr:nth-child(2) > td.text-right')).getText()
     //remove all characters that are not numbers, and converting to an int.
     balanceAfter2 = balanceAfter2.replace(/\D/g, '') / 100;
-    console.log(balanceAfter2)
 
     diff1 = balanceBefore1 - balanceAfter1
     diff2 = balanceAfter2 - balanceBefore2
