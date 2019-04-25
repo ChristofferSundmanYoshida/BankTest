@@ -14,11 +14,11 @@
             "name": "Överföringar andra konton has loaded",
             "result": {
               "status": "passed",
-              "duration": 6712950801
+              "duration": 5703770200
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:12"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "I have Entered the correct BG information",
             "result": {
               "status": "passed",
-              "duration": 651003399
+              "duration": 299031600
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:38"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:38"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "i click the send button",
             "result": {
               "status": "passed",
-              "duration": 126416200
+              "duration": 59477000
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:46"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "i Click the confirmation promt",
             "result": {
               "status": "passed",
-              "duration": 516305900
+              "duration": 507923700
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:52"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:52"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "i should have the sum taken from my account",
             "result": {
               "status": "passed",
-              "duration": 37696901
+              "duration": 27724301
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:59"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:59"
             }
           },
           {
@@ -78,11 +78,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 518841899
+              "duration": 179828500
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -101,11 +101,11 @@
             "name": "Överföringar andra konton has loaded",
             "result": {
               "status": "passed",
-              "duration": 6071855000
+              "duration": 5042883900
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:12"
             }
           },
           {
@@ -114,11 +114,11 @@
             "name": "I have Entered the correct PG information",
             "result": {
               "status": "passed",
-              "duration": 604520000
+              "duration": 843016100
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:67"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:67"
             }
           },
           {
@@ -127,11 +127,11 @@
             "name": "i click the send button",
             "result": {
               "status": "passed",
-              "duration": 134428300
+              "duration": 145082100
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:46"
             }
           },
           {
@@ -140,11 +140,11 @@
             "name": "i Click the confirmation promt",
             "result": {
               "status": "passed",
-              "duration": 517564201
+              "duration": 516993001
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:52"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:52"
             }
           },
           {
@@ -153,11 +153,11 @@
             "name": "i should have the sum taken from my account",
             "result": {
               "status": "passed",
-              "duration": 70286200
+              "duration": 39017400
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:59"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:59"
             }
           },
           {
@@ -165,11 +165,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2284215800
+              "duration": 202914299
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -188,11 +188,11 @@
             "name": "Överföringar andra konton has loaded",
             "result": {
               "status": "passed",
-              "duration": 6095070100
+              "duration": 5694771799
             },
             "line": 20,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:12"
             }
           },
           {
@@ -201,11 +201,11 @@
             "name": "I have Entered the correct Other information",
             "result": {
               "status": "passed",
-              "duration": 562684901
+              "duration": 758832200
             },
             "line": 21,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:75"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:75"
             }
           },
           {
@@ -214,11 +214,11 @@
             "name": "i click the send button",
             "result": {
               "status": "passed",
-              "duration": 116098501
+              "duration": 145718600
             },
             "line": 22,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:46"
             }
           },
           {
@@ -227,11 +227,11 @@
             "name": "i Click the confirmation promt",
             "result": {
               "status": "passed",
-              "duration": 514667699
+              "duration": 518510700
             },
             "line": 23,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:52"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:52"
             }
           },
           {
@@ -240,11 +240,11 @@
             "name": "i should have the sum taken from my account",
             "result": {
               "status": "passed",
-              "duration": 37032499
+              "duration": 41964600
             },
             "line": 24,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:59"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:59"
             }
           },
           {
@@ -252,11 +252,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 568372300
+              "duration": 225853800
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -275,11 +275,11 @@
             "name": "Överföringar andra konton has loaded",
             "result": {
               "status": "passed",
-              "duration": 6187423200
+              "duration": 5555301300
             },
             "line": 27,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:12"
             }
           },
           {
@@ -288,11 +288,11 @@
             "name": "I have Entered the correct information for transfer over the limit",
             "result": {
               "status": "passed",
-              "duration": 688475500
+              "duration": 470468499
             },
             "line": 28,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:83"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:83"
             }
           },
           {
@@ -301,11 +301,11 @@
             "name": "i click the send button",
             "result": {
               "status": "passed",
-              "duration": 113797700
+              "duration": 64587500
             },
             "line": 29,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:46"
             }
           },
           {
@@ -314,11 +314,11 @@
             "name": "I should recieve an error message",
             "result": {
               "status": "passed",
-              "duration": 92214101
+              "duration": 31962600
             },
             "line": 30,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:91"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:91"
             }
           },
           {
@@ -326,11 +326,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 296581200
+              "duration": 191606100
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -349,11 +349,11 @@
             "name": "Överföringar andra konton has loaded",
             "result": {
               "status": "passed",
-              "duration": 6037646199
+              "duration": 5320478100
             },
             "line": 33,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:12"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:12"
             }
           },
           {
@@ -362,11 +362,11 @@
             "name": "I have Entered the correct information for transfer over the account balance",
             "result": {
               "status": "passed",
-              "duration": 675205500
+              "duration": 622807400
             },
             "line": 34,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:96"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:96"
             }
           },
           {
@@ -375,11 +375,11 @@
             "name": "i click the send button",
             "result": {
               "status": "passed",
-              "duration": 155045001
+              "duration": 107825900
             },
             "line": 35,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:46"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:46"
             }
           },
           {
@@ -388,11 +388,11 @@
             "name": "I should recieve an error message",
             "result": {
               "status": "passed",
-              "duration": 53640701
+              "duration": 88866299
             },
             "line": 36,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_1.js:91"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_1.js:91"
             }
           },
           {
@@ -400,11 +400,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 454766500
+              "duration": 206029200
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -417,7 +417,7 @@
     "line": 1,
     "name": "usc_1",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_1.feature"
+    "uri": "C:/Users/David/Desktop/BankTest/features/case_1.feature"
   },
   {
     "description": "   as a customer i want to be able to view more information/transactions by clicking more.",
@@ -434,11 +434,11 @@
             "name": "my-accounts page loaded",
             "result": {
               "status": "passed",
-              "duration": 4022911601
+              "duration": 12045589600
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:6"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_2.js:6"
             }
           },
           {
@@ -447,11 +447,11 @@
             "name": "i have enterd my account",
             "result": {
               "status": "passed",
-              "duration": 197559400
+              "duration": 103491399
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:21"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_2.js:21"
             }
           },
           {
@@ -460,11 +460,11 @@
             "name": "And i Click Visa mer",
             "result": {
               "status": "passed",
-              "duration": 221432199
+              "duration": 126748501
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:26"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_2.js:26"
             }
           },
           {
@@ -473,11 +473,11 @@
             "name": "i should see more of my transaction history for that account",
             "result": {
               "status": "passed",
-              "duration": 17771000
+              "duration": 17495700
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\case_2.js:34"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\case_2.js:34"
             }
           },
           {
@@ -485,11 +485,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 426259100
+              "duration": 205747501
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -502,7 +502,7 @@
     "line": 1,
     "name": "usc_1",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/case_2.feature"
+    "uri": "C:/Users/David/Desktop/BankTest/features/case_2.feature"
   },
   {
     "elements": [
@@ -518,11 +518,11 @@
             "name": "my-accounts page loaded properly",
             "result": {
               "status": "passed",
-              "duration": 4121244300
+              "duration": 3710411000
             },
             "line": 4,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:11"
             }
           },
           {
@@ -531,11 +531,11 @@
             "name": "I click the add account button I get prompted to enter a name for the account",
             "result": {
               "status": "passed",
-              "duration": 533342300
+              "duration": 539879099
             },
             "line": 5,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:33"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:33"
             }
           },
           {
@@ -544,11 +544,11 @@
             "name": "I enter TestKonto1 as name and click the add button",
             "result": {
               "status": "passed",
-              "duration": 554561099
+              "duration": 650302100
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:49"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:49"
             }
           },
           {
@@ -557,11 +557,11 @@
             "name": "the account TestKonto1 is created",
             "result": {
               "status": "passed",
-              "duration": 323664100
+              "duration": 241748499
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:65"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:65"
             }
           },
           {
@@ -569,11 +569,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 572285301
+              "duration": 216275501
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -592,11 +592,11 @@
             "name": "my-accounts page loaded properly",
             "result": {
               "status": "passed",
-              "duration": 5022190100
+              "duration": 3642368200
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:11"
             }
           },
           {
@@ -605,11 +605,11 @@
             "name": "I click the configure account I should get prompted to change the name",
             "result": {
               "status": "passed",
-              "duration": 1126760700
+              "duration": 1145077001
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:79"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:79"
             }
           },
           {
@@ -618,11 +618,11 @@
             "name": "when I enter TestKonto2 as name and I click the save changes button",
             "result": {
               "status": "passed",
-              "duration": 1319064301
+              "duration": 1011478501
             },
             "line": 12,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:95"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:95"
             }
           },
           {
@@ -631,11 +631,11 @@
             "name": "TestKonto1 is renamed TestKonto2",
             "result": {
               "status": "passed",
-              "duration": 905147299
+              "duration": 851632800
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:110"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:110"
             }
           },
           {
@@ -643,11 +643,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 589077900
+              "duration": 226845901
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -666,11 +666,11 @@
             "name": "my-accounts page loaded properly",
             "result": {
               "status": "passed",
-              "duration": 4446739000
+              "duration": 3569136000
             },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:11"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:11"
             }
           },
           {
@@ -679,11 +679,11 @@
             "name": "I click the remove account button on Testkonto2",
             "result": {
               "status": "passed",
-              "duration": 972714999
+              "duration": 954601000
             },
             "line": 17,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:124"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:124"
             }
           },
           {
@@ -692,11 +692,11 @@
             "name": "the account TestKonto2 should have been removed",
             "result": {
               "status": "passed",
-              "duration": 483604900
+              "duration": 443380401
             },
             "line": 18,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\konto_changes.js:137"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\konto_changes.js:137"
             }
           },
           {
@@ -704,11 +704,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 635552200
+              "duration": 187971300
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -721,79 +721,79 @@
     "line": 1,
     "name": "As a customer I want to be able to create, change and delete accounts.",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/konto_changes.feature"
+    "uri": "C:/Users/David/Desktop/BankTest/features/konto_changes.feature"
   },
   {
     "elements": [
       {
-        "id": "as-a-customer-i-want-to-see-a-summary-of-all-my-account-balances-and-my-last-five-transactions-(no-matter-which-account).;checking-#start-for-account-names,-messages-and-balance",
+        "id": "as-a-customer-i-want-to-be-able-to-create-a-bank-account.;adding-a-new-account-named-david",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Checking #Start for account names, messages and balance",
+        "name": "Adding a new account named david",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "#Start page loaded properly",
+            "name": "start page loaded",
             "result": {
               "status": "passed",
-              "duration": 4385333100
+              "duration": 11410555400
             },
             "line": 4,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaction-history.js:9"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\login.js:10"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the page is loaded",
+            "name": "I click the add account button",
             "result": {
               "status": "passed",
-              "duration": 250000
+              "duration": 76436799
             },
             "line": 5,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaction-history.js:31"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\login.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter a new account name, a new password and reapeat my password",
+            "result": {
+              "status": "passed",
+              "duration": 202995400
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\login.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press Add account",
+            "result": {
+              "status": "passed",
+              "duration": 55603400
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\login.js:36"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I can see that Testkonto-03 balance is 50300",
+            "name": "a new account named David should have been created",
             "result": {
               "status": "passed",
-              "duration": 64925800
-            },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaction-history.js:38"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that Testkonto-03 under history has the message Större muta",
-            "result": {
-              "status": "passed",
-              "duration": 70385100
-            },
-            "line": 7,
-            "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaction-history.js:48"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "it has 300 as sum",
-            "result": {
-              "status": "passed",
-              "duration": 51145399
+              "duration": 634643500
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaction-history.js:60"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\login.js:42"
             }
           },
           {
@@ -801,11 +801,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 536637299
+              "duration": 221540300
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -813,12 +813,12 @@
         "type": "scenario"
       }
     ],
-    "id": "as-a-customer-i-want-to-see-a-summary-of-all-my-account-balances-and-my-last-five-transactions-(no-matter-which-account).",
+    "id": "as-a-customer-i-want-to-be-able-to-create-a-bank-account.",
     "keyword": "Feature",
     "line": 1,
-    "name": "As a customer I want to see a summary of all my account balances and my last five transactions (No matter which account).",
+    "name": "As a customer I want to be able to create a bank account.",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/transaction-history.feature"
+    "uri": "C:/Users/David/Desktop/BankTest/features/login.feature"
   },
   {
     "elements": [
@@ -834,11 +834,11 @@
             "name": "transfermyaccount page loaded",
             "result": {
               "status": "passed",
-              "duration": 5291322499
+              "duration": 5067863900
             },
             "line": 5,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:16"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\transaktioner_internt.js:16"
             }
           },
           {
@@ -847,11 +847,11 @@
             "name": "I choose my 1st account as Konto",
             "result": {
               "status": "passed",
-              "duration": 205136999
+              "duration": 201414800
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:53"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\transaktioner_internt.js:53"
             }
           },
           {
@@ -860,11 +860,11 @@
             "name": "I enter amount 100 as Summa (SEK)",
             "result": {
               "status": "passed",
-              "duration": 259324100
+              "duration": 253273100
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:59"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\transaktioner_internt.js:59"
             }
           },
           {
@@ -873,11 +873,11 @@
             "name": "I choose my 2nd account as Konto",
             "result": {
               "status": "passed",
-              "duration": 209571599
+              "duration": 204491700
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:66"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\transaktioner_internt.js:66"
             }
           },
           {
@@ -886,11 +886,11 @@
             "name": "I click Utför",
             "result": {
               "status": "passed",
-              "duration": 202489701
+              "duration": 203101001
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:72"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\transaktioner_internt.js:72"
             }
           },
           {
@@ -899,11 +899,11 @@
             "name": "100 SEK should be moved from my 1st account to my 2nd account",
             "result": {
               "status": "passed",
-              "duration": 521800300
+              "duration": 287476300
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\step-definitions\\transaktioner_internt.js:78"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\step-definitions\\transaktioner_internt.js:78"
             }
           },
           {
@@ -911,11 +911,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 594209200
+              "duration": 194696600
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Christoffer\\Documents\\Programmering\\Gruppuppgift-Bank\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\David\\Desktop\\BankTest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -928,6 +928,6 @@
     "line": 2,
     "name": "As a customer I want to transfer money between my own accounts",
     "tags": [],
-    "uri": "C:/Users/Christoffer/Documents/Programmering/Gruppuppgift-Bank/Bank-master/features/transaktioner_internt.feature"
+    "uri": "C:/Users/David/Desktop/BankTest/features/transaktioner_internt.feature"
   }
 ]
