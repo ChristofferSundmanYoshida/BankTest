@@ -6,6 +6,7 @@ let pw = '123456'   //Lösenord för ovan nämnda användare.
 
 module.exports = function() {
 
+    //Load login page, login using assigned account from test-manuscript and load #Start
     this.Given(/^\#Start page loaded properly$/, async function () {
 
         
@@ -29,14 +30,13 @@ module.exports = function() {
       });
 
     this.When(/^the page is loaded$/, function () {
-        // Write code here that turns the phrase above into concrete actions
 
         //This test is not necessary, it is tested above.
 
       });
 
+    //Checks the table after a balance, and asserts that against what it is supposed to be
     this.Then(/^I can see that Testkonto\-(\d+) balance is (\d+)$/, async function (arg1, arg2) {
-        // Write code here that turns the phrase above into concrete actions
 
         let balance1 = await driver.findElement(by.css('.accounts-start tr:nth-child(4) > td.text-right')).getText()
         balance1 = balance1.replace(/\D/g, '') / 100; //remove all characters that are not numbers, and converting to an int.
@@ -45,8 +45,8 @@ module.exports = function() {
 
       });
 
+    //Asserts a specific cell in a specific table against expected result
     this.Then(/^that Testkonto-03 under history has the message Större muta$/, async function () {
-
 
         let muta1 = await driver.findElement(by.css('.start-history tr:nth-child(2) > th:nth-child(2)')).getText()
 
@@ -56,9 +56,8 @@ module.exports = function() {
 
       });
 
-
+    //Asserts a specific cell in a specific table against expected result
     this.Then(/^it has (\d+) as sum$/, async function (arg1) {
-
 
         let mutaSum = await driver.findElement(by.css('.start-history tr:nth-child(2) > td')).getText()
 

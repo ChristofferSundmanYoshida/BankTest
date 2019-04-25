@@ -1,9 +1,11 @@
 let {$, sleep} = require('./funcs');
+    //[US07]
+    //Feel free to change the below variables to change what the test creates
 
-let namn = 'TestKonto1'
-let pw = '123456'
-let accountName = 'TestKonto1'
-let accountName2 = 'TestKonto2'
+let namn = 'TestKonto1' //User-account to log into
+let pw = '123456'       //password for the above stated account
+let accountName = 'TestKonto1'  //Account to be created during test
+let accountName2 = 'TestKonto2' //Account to be created during test
 
 module.exports = function() {
            
