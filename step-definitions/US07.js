@@ -66,10 +66,12 @@ module.exports = function() {
           
       this.Then(/^the account TestKonto(\d+) is created$/, async function (arg1) {
 
-          await sleep(400)    
+            await sleep(400)    
         konto = await driver.findElement(by.css('.accounts tr a')).getText()
             await konto[0]
 
+            console.log(konto)
+          
             await sleep(400)
 
             assert(konto === 'TestKonto1', 'fel')
