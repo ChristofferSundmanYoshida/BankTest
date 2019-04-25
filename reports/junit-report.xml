@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="1" skipped="0">
+    <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" tests="4" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\Christoffer\Documents\Programmering\Gruppuppgift-Bank\Bank-master\features\US07.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="4.4010891">
+        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="4.2890747">
         </testcase>
-        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.387723">
+        <testcase name="When I click the add account button I get prompted to enter a name for the account" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.398971099">
         </testcase>
-        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.403196501">
+        <testcase name="And I enter TestKonto1 as name and click the add button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="1.380753899">
         </testcase>
-        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.8361959">
-            <failure message="AssertionError: fel">AssertionError: fel
-    at createWorld.&lt;anonymous&gt; (C:\Users\Christoffer\Documents\Programmering\Gruppuppgift-Bank\Bank-master\step-definitions\US07.js:77:13)</failure>
+        <testcase name="Then the account TestKonto1 is created" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;creating-an-account" time="0.9312646">
         </testcase>
     </testsuite>
     <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" tests="4" failures="0" skipped="0">
@@ -21,13 +19,13 @@
             <property name="URI" value="C:\Users\Christoffer\Documents\Programmering\Gruppuppgift-Bank\Bank-master\features\US07.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="3.756703999">
+        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="3.7140418">
         </testcase>
-        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.281643">
+        <testcase name="When I click the configure account I should get prompted to change the name" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="1.2964055">
         </testcase>
-        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.9602484">
+        <testcase name="And when I enter TestKonto2 as name and I click the save changes button" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.969128101">
         </testcase>
-        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.8380204">
+        <testcase name="Then TestKonto1 is renamed TestKonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;renaming-an-account" time="0.8433429">
         </testcase>
     </testsuite>
     <testsuite name="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" tests="3" failures="0" skipped="0">
@@ -35,11 +33,11 @@
             <property name="URI" value="C:\Users\Christoffer\Documents\Programmering\Gruppuppgift-Bank\Bank-master\features\US07.feature">
             </property>
         </properties>
-        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="3.7557853">
+        <testcase name="Given my-accounts page loaded properly" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="3.762263899">
         </testcase>
-        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.8563207">
+        <testcase name="When I click the remove account button on Testkonto2" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.869818999">
         </testcase>
-        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.4300774">
+        <testcase name="Then the account TestKonto2 should have been removed" classname="as-a-customer-i-want-to-be-able-to-create,-change-and-delete-accounts.;removing-an-existing-account" time="0.4321283">
         </testcase>
     </testsuite>
 </testsuites>

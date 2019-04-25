@@ -30,15 +30,14 @@ module.exports = function() {
 
       });
 
-   
-
       this.When(/^I click the add account button I get prompted to enter a name for the account$/, async function () {
 
             await sleep (100)
             
-            await driver.findElement(by.css('.row.px-2 button')).click()
+            let click = await driver.findElement(by.css('.row.px-2 button'))
+            await click.click()
 
-            clicked = await driver.findElement(by.css('input#newAccountName')).getAttribute('placeholder')
+            let clicked = await driver.findElement(by.css('input#newAccountName')).getAttribute('placeholder')
 
             await sleep(100)
 
@@ -49,25 +48,27 @@ module.exports = function() {
       });
 
       this.When(/^I enter TestKonto(\d+) as name and click the add button$/, async function (arg1) {    
-
+            await sleep(400)
             let input = await driver.findElement(by.css('input#newAccountName'))
 
             await input.sendKeys(accountName)
 
-            await sleep(100)
+            await sleep(400)
 
-            await driver.findElement(by.css('button.add-account-btn.btn.btn-primary')).click()
+            let click = await driver.findElement(by.css('button.add-account-btn.btn.btn-primary'))
+            await click.click()
 
-            await sleep(100)
 
-            
+
+            await sleep(400)
+
           });
 
           
       this.Then(/^the account TestKonto(\d+) is created$/, async function (arg1) {
 
             await sleep(400)    
-        konto = await driver.findElement(by.css('.accounts tr a')).getText()
+            konto = await driver.findElement(by.css('.accounts tr a')).getText()
             await konto[0]
 
             console.log(konto)
