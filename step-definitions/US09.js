@@ -12,6 +12,7 @@ module.exports = function() {
     this.Given(/^Överföringar andra konton has loaded$/,async function () {
         await helpers.loadPage("http://localhost:3000/#login");
         //sends the login info.
+        await sleep(400)
         let input = await $("input#username");
         let password = await $("input#password");
         input.sendKeys(namn);
