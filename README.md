@@ -1,4 +1,4 @@
-# BankTest Case 1 - DDTC (Dan, David, Thomas, Christoffer)
+# BankTest Case 1 - DDTC (Dan, David, Tomas, Christoffer)
 Rapport, Plan, Matris samt manuscript ligger i "Övriga rapporter mm"
 
 KANBAN, SCRUM-pts och Sprintplanering finns på Monday.com 
