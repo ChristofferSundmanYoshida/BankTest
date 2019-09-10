@@ -1,4 +1,5 @@
-let {$, sleep} = require('./funcs');
+const ares = require('ares-helper');
+let { $, sleep, moduleUs } = require('./funcs');
     //[US07]
     //Feel free to change the below variables to change what the test creates
 
@@ -11,6 +12,14 @@ module.exports = function() {
            
 
       this.Given(/^my\-accounts page loaded properly$/, async function () {
+        moduleCount = 3
+        moduleUs.name = 'US07'
+    
+        await ares.startModule({
+              moduleName:  moduleUs.name,
+              totalTests: moduleCount
+              });
+    
             
             await helpers.loadPage('http://localhost:3000/#login')
             

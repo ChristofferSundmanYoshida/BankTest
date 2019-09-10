@@ -2,15 +2,65 @@
 // We know how to solve this, either by creating a variable that holds randomized names and creates those
 // or, delete the JSON files in the beginning of the test (this we dont know how to yet tho).
 // Due to time constraints we were not able to do this before sprint end.
-
-let { $, sleep } = require('./funcs');
-
+const ares = require('ares-helper');
+let { $, sleep, moduleUs } = require('./funcs');
+let scenario, scenarioName
+let moduleCount = 1
 let namn = 'David'
 let pw = '123456'
+ares.setProjectInfo({
+      "userToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1Njc1OTczMzQsImVtYWlsIjoiZGFuLm9sc2VuODVAZ21haWwuY29tIiwiaWF0IjoxNTY3NTEwOTM0fQ.LfmPZV2F_YJ7QBNuvrlufvt-j0yt0UQHgm6LTwsFEqU",
+      "workspaceName": "fyrairad",
+      "projectKey": "5d6e11c43e47305847483dcb",
+      "projectName": "Banktest"
+    })
 
 module.exports = function () {
 
+      this.Before(function(scenario, callback) {
+            scenarioName = scenario;
+            callback();
+          });
+
+      this.After(async function () {
+            if (scenarioName.isSuccessful() === true) {
+                  //  block of code to be executed if condition1 is true
+                  await ares.testResult({
+                        moduleName: moduleUs.name,
+                        title: scenarioName.getName(),
+                        passed: true
+                  })
+            } else
+            {
+                  //  block of code to be executed if the condition1 is false and condition2 is true
+                  await ares.testResult({
+                        moduleName: moduleUs.name,
+                        title: scenarioName.getName(),
+                        passed: false,
+                        errorMessage: 'Could not compute!'
+                  })
+            }
+                     
+
+      });
+
+      this.AfterFeature( async function() {
+            await ares.endModule({moduleName:  moduleUs.name,});
+            if (moduleUs.name === 'US11'){await ares.endTests();}
+                      console.log(moduleUs.name)
+          });
+
+
       this.Given(/^start page loaded$/, async function () {
+            moduleUs.name = 'US01'
+            ares.debug = false;
+
+            await ares.startTests();
+
+            await ares.startModule({
+                  moduleName:  moduleUs.name,
+                  totalTests: moduleCount
+                  });
 
             await helpers.loadPage('http://localhost:3000/#start')
 
@@ -48,11 +98,9 @@ module.exports = function () {
 
             konto = await driver.findElement(by.css('body header small span')).getText()
 
-            console.log(konto)
+            await sleep(100)
 
             assert(konto === 'David', 'fel')
-
-            await sleep(100)
 
       });
 

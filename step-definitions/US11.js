@@ -1,4 +1,5 @@
-let {$, sleep} = require('./funcs');
+const ares = require('ares-helper');
+let { $, sleep, moduleUs } = require('./funcs');
 
 let namn = 'TestKonto3' //Inloggningsnamn för detta test, kan bytas ut för att kontrollera mot en annan befintlig användare.
 let pw = '123456'   //Lösenord för ovan nämnda användare.
@@ -8,7 +9,14 @@ module.exports = function() {
 
     //Load login page, login using assigned account from test-manuscript and load #Start
     this.Given(/^\#Start page loaded properly$/, async function () {
-
+      moduleCount = 1
+      moduleUs.name = 'US11'
+  
+      await ares.startModule({
+            moduleName:  moduleUs.name,
+            totalTests: moduleCount
+            });
+  
         
         await helpers.loadPage('http://localhost:3000/#login')
             

@@ -1,5 +1,6 @@
 //Tomas
-let { $, sleep } = require('./funcs');
+const ares = require('ares-helper');
+let { $, sleep, moduleUs } = require('./funcs');
 
 let namn = 'tbiasini9'
 let pw = 'hsshhCwQ'
@@ -13,7 +14,16 @@ let diff2 //the difference on the "to" account after-before. should also be equa
 
 module.exports = function () {
 
+
+
   this.Given(/^transfermyaccount page loaded$/, async function () {
+    moduleUs.name = 'US02'
+    moduleCount = 1
+    await ares.startModule({
+      moduleName: moduleUs.name,
+      totalTests: moduleCount
+      });
+
     await helpers.loadPage('http://localhost:3000/#login')
 
     let input = await driver.findElement(by.css('input#username'))

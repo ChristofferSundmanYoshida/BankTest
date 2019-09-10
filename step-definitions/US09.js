@@ -1,4 +1,5 @@
-let { $, sleep } = require("./funcs");
+const ares = require('ares-helper');
+let { $, sleep, moduleUs } = require('./funcs');
     let namn = "gsimnett0";
     let pw = "TbObbUKQ";
     let balance
@@ -10,6 +11,14 @@ let { $, sleep } = require("./funcs");
 
 module.exports = function() {
     this.Given(/^Överföringar andra konton has loaded$/,async function () {
+      moduleCount = 5
+      moduleUs.name = 'US09'
+  
+      await ares.startModule({
+            moduleName:  moduleUs.name,
+            totalTests: moduleCount
+            });
+  
         await helpers.loadPage("http://localhost:3000/#login");
         //sends the login info.
         await sleep(400)
