@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "jsonflex": "^1.0.10",
     "selenium-cucumber-js": "^1.6.2"
   }
